@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, viewport-fit=cover" />
+  <title>قائمة أدوية التأمين الصحي</title>
+  <meta name="description" content="نظام البحث في قائمة أدوية التأمين الصحي - يتيح للصيادلة التحقق من توفر الدواء في قائمة التأمين بسهولة وسرعة" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Alexandria:wght@400;500;600;700;800&family=Cairo:wght@400;500;600;700;800;900&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Animated Background -->
+  <div class="bg-animated">
+    <div class="bg-blob blob-1"></div>
+    <div class="bg-blob blob-2"></div>
+    <div class="bg-blob blob-3"></div>
+  </div>
+
+  <!-- Header -->
+  <header class="site-header">
+    <div class="header-inner">
+      <div class="logo-wrap">
+        <div class="logo-icon">
+          <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect width="40" height="40" rx="12" fill="url(#logo-grad)"/>
+            <path d="M20 8v24M8 20h24" stroke="white" stroke-width="3.5" stroke-linecap="round"/>
+            <defs>
+              <linearGradient id="logo-grad" x1="0" y1="0" x2="40" y2="40">
+                <stop stop-color="#4f8ef7"/>
+                <stop offset="1" stop-color="#7c5cfc"/>
+              </linearGradient>
+            </defs>
+          </svg>
+        </div>
+        <div class="logo-text">
+          <span class="logo-title">قائمة أدويه التأمين الصحي</span>
+          <span class="logo-sub">مستشفي العاصمه الاداريه الجديده</span>
+        </div>
+      </div>
+      <div class="header-stats" id="headerStats">
+        <div class="stat-chip">
+          <span class="stat-num" id="statTotal">—</span>
+          <span class="stat-lbl">صنف دوائي</span>
+        </div>
+        <div class="stat-chip">
+          <span class="stat-num" id="statGroups">35</span>
+          <span class="stat-lbl">مجموعة</span>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main class="main-content">
+    <!-- Search Section -->
+    <section class="search-section">
+      <h1 class="search-headline">ابحث في قائمة أدوية التأمين</h1>
+      <p class="search-sub">اكتب اسم الدواء أو المادة الفعّالة أو الشكل الدوائي للتحقق من توافره في قائمة التأمين</p>
+
+      <div class="search-box-wrap">
+        <div class="search-input-wrap" id="searchWrap">
+          <svg class="search-icon" viewBox="0 0 24 24" fill="none">
+            <circle cx="11" cy="11" r="7" stroke="currentColor" stroke-width="2"/>
+            <path d="m16.5 16.5 4 4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+          </svg>
+          <input
+            type="search"
+            id="searchInput"
+            class="search-input"
+            placeholder="ابحث بالاسم العلمي أو التجاري أو الشكل الدوائي..."
+            autocomplete="off"
+            spellcheck="false"
+            dir="auto"
+          />
+          <button class="clear-btn" id="clearBtn" aria-label="مسح البحث">✕</button>
+        </div>
+
+        <!-- Filters -->
+        <div class="filters-row">
+          <div class="filters-top-row">
+            <div class="filter-group">
+              <label class="filter-label">القائمة</label>
+              <div class="filter-pills" id="filterSheet">
+                <button class="pill active" data-value="all">الكل</button>
+                <button class="pill" data-value="free">أدوية مجانية</button>
+                <button class="pill" data-value="commercial">أدوية تجارية</button>
+                <button class="pill" data-value="special">أدوية خاصة</button>
+              </div>
+            </div>
+            <div class="filter-group" id="authorityFilterGroup">
+              <label class="filter-label">السلطة الوصفية</label>
+              <div class="filter-pills" id="filterAuthority">
+                <button class="pill active" data-value="all">الكل</button>
+                <button class="pill" data-value="gp">GP – ممارس عام</button>
+                <button class="pill" data-value="sp">SP – متخصص</button>
+                <button class="pill" data-value="con">CON – استشاري</button>
+                <button class="pill" data-value="committee">لجان عليا</button>
+              </div>
+            </div>
+          </div>
+          <div class="filter-group" id="groupFilterGroup">
+            <label class="filter-label">المجموعة الدوائية</label>
+            <div class="ios-select-wrapper" id="iosGroupWrapper">
+              <button type="button" class="ios-select-trigger" id="iosGroupTrigger" aria-haspopup="dialog" aria-expanded="false">
+                <span class="ios-select-icon">
+                  <svg viewBox="0 0 20 20" fill="currentColor">
+                    <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"/>
+                  </svg>
+                </span>
+                <span class="ios-select-value" id="iosGroupValue">— اختر المجموعة الدوائية —</span>
+              </button>
+              <select class="sr-only" id="filterGroup" tabindex="-1" aria-hidden="true">
+                <option value="all">كل المجموعات</option>
+              </select>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Results -->
+    <section class="results-section">
+      <div class="results-meta" id="resultsMeta"></div>
+      <div class="results-grid" id="resultsGrid"></div>
+      <div class="no-results hidden" id="noResults">
+        <div class="no-results-icon">🔍</div>
+        <p>لم يتم العثور على نتائج مطابقة</p>
+        <small>جرب البحث بكلمات مختلفة أو قلّل من المرشحات</small>
+      </div>
+      <div class="loading-state" id="loadingState">
+        <div class="spinner"></div>
+        <p>جارٍ تحميل البيانات...</p>
+      </div>
+    </section>
+  </main>
+
+  <!-- iOS Category Picker Modal / Bottom Sheet -->
+  <div class="ios-sheet-overlay hidden" id="groupSheetOverlay" role="dialog" aria-modal="true" aria-label="اختر المجموعة الدوائية">
+    <div class="ios-sheet-container" id="groupSheetContainer">
+      <div class="ios-sheet-grabber"></div>
+      <div class="ios-sheet-header">
+        <div class="ios-sheet-title-row">
+          <span class="ios-sheet-title">اختر المجموعة الدوائية</span>
+          <button type="button" class="ios-sheet-close" id="groupSheetClose" aria-label="إغلاق">✕</button>
+        </div>
+        <div class="ios-sheet-search-wrap">
+          <svg viewBox="0 0 20 20" fill="currentColor" class="ios-sheet-search-icon">
+            <path fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z" clip-rule="evenodd"/>
+          </svg>
+          <input type="text" class="ios-sheet-search" id="groupSheetSearch" placeholder="ابحث باسم الفئة أو رقمها..." autocomplete="off" />
+        </div>
+      </div>
+      <div class="ios-sheet-list" id="groupSheetList" role="listbox"></div>
+    </div>
+  </div>
+
+  <!-- Drug Detail Modal -->
+  <div class="modal-overlay hidden" id="modalOverlay">
+    <div class="modal-card" id="modalCard" role="dialog" aria-modal="true">
+      <button class="modal-close" id="modalClose" aria-label="إغلاق">✕</button>
+      <div class="modal-body" id="modalBody"></div>
+    </div>
+  </div>
+
+  <script src="drugs_data.js"></script>
+  <script src="app.js"></script>
+</body>

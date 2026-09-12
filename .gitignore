@@ -1,0 +1,14 @@
+# Temporary & log files
+*.txt
+*.log
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# OS & Editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
