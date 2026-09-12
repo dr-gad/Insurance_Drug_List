@@ -260,6 +260,10 @@ data = {
 with open('drugs_data.json', 'w', encoding='utf-8') as f:
     json.dump(data, f, ensure_ascii=False, indent=2)
 
-print("\nSaved drugs_data.json")
+js_content = 'window.DRUGS_DATA = ' + json.dumps(data, ensure_ascii=False, indent=2) + ';\n'
+with open('drugs_data.js', 'w', encoding='utf-8') as f:
+    f.write(js_content)
+
+print("\nSaved drugs_data.json and drugs_data.js")
 total = len(free_drugs) + len(commercial_drugs) + len(special_drugs)
 print(f"Total: {total}")

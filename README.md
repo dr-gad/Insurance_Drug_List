@@ -36,9 +36,7 @@ Insurance_Drug_list/
 ├── drugs_data.js           # قاعدة بيانات الأدوية مدمجة بصيغة JavaScript
 ├── drugs_data.json         # بيانات الأدوية بصيغة JSON
 ├── لستة ادويه التأمين.xlsx    # ملف الإكسيل المصدري لقائمة الأدوية
-│
-├── extract_drugs.py        # سكريبت Python لمعالجة ملف الإكسيل واستخراج البيانات
-├── make_js_data.py         # سكريبت تحويل بيانات الـ JSON إلى كائن JS
+├── extract_drugs.py        # سكريبت Python لمعالجة ملف الإكسيل وتوليد بيانات الأدوية
 └── README.md               # دليل ومواصفات المشروع
 ```
 
