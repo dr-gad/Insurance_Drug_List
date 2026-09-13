@@ -1015,6 +1015,17 @@ mark {
   word-break: break-word;
 }
 
+.modal-scientific-name {
+  margin: -0.35rem 0 0.8rem;
+  color: #94a3b8;
+  font-family: var(--font-drug);
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.35;
+  text-align: left;
+  word-break: break-word;
+}
+
 .modal-badges {
   display: flex;
   flex-wrap: wrap;

@@ -546,9 +546,11 @@ function openModal(drug) {
 
   // Fields grid
   const fields = [];
+  const hasSeparateTradeName = Boolean(drug.trade_name && drug.drug_name && drug.trade_name !== drug.drug_name);
   if (drug.concentration)  fields.push(['التركيز / الجرعة',     drug.concentration,  true]);
   if (drug.drug_form)      fields.push(['الشكل الدوائي',         drug.drug_form,      false]);
   if (drug.authority_raw)  fields.push(['السلطة الوصفية',        drug.authority_raw,  false]);
+  if (hasSeparateTradeName) fields.push(['الاسم العلمي',           drug.drug_name,      false]);
   if (drug.trade_name)     fields.push(['الاسم التجاري',          drug.trade_name,     true]);
   if (drug.pack_label)     fields.push(['العبوة',                 drug.pack_label,      false]);
 
@@ -585,8 +587,14 @@ function openModal(drug) {
     </div>
   `;
 
+  const modalTitle = drug.trade_name || drug.drug_name || '—';
+  const modalScientificName = hasSeparateTradeName
+    ? `<div class="modal-scientific-name" dir="ltr">${escHtml(drug.drug_name)}</div>`
+    : '';
+
   modalBody.innerHTML = `
-    <div class="modal-drug-name">${escHtml(drug.trade_name || drug.drug_name || '—')}</div>
+    <div class="modal-drug-name">${escHtml(modalTitle)}</div>
+    ${modalScientificName}
     <div class="modal-badges">${badges.join('')}</div>
     ${statusHtml}
     ${fields.length ? `<div class="modal-grid">${fieldsHtml}</div>` : ''}
