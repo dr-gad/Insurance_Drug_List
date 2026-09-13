@@ -11,7 +11,6 @@ const state = {
   filtered: [],
   searchQuery: '',
   filterSheet: 'all',
-  filterAuthority: 'all',
   filterGroup: 'all',
   renderOffset: 0,
   PAGE_SIZE: 60,
@@ -31,7 +30,6 @@ const modalOverlay      = $('modalOverlay');
 const modalBody         = $('modalBody');
 const modalClose        = $('modalClose');
 const filterSheetEl     = $('filterSheet');
-const filterAuthEl      = $('filterAuthority');
 const filterGroupEl     = $('filterGroup');
 const statTotal         = $('statTotal');
 const iosGroupTrigger   = $('iosGroupTrigger');
@@ -40,7 +38,6 @@ const groupSheetOverlay = $('groupSheetOverlay');
 const groupSheetClose   = $('groupSheetClose');
 const groupSheetSearch  = $('groupSheetSearch');
 const groupSheetList    = $('groupSheetList');
-const authorityFilterGroup = $('authorityFilterGroup');
 
 // ─── AUTHORITY / COMMITTEE DISPLAY MAP ────────────────────
 const AUTHORITY_DISPLAY = {
@@ -353,20 +350,10 @@ function closeGroupSheet() {
 function applyFilters() {
   const q     = state.searchQuery.trim().toLowerCase();
   const sheet = state.filterSheet;
-  const auth  = state.filterAuthority;
   const grp   = state.filterGroup;
 
   state.filtered = state.drugs.filter(d => {
     if (sheet !== 'all' && d.sheet !== sheet) return false;
-
-    if (auth !== 'all') {
-      // Special authority filters
-      if (auth === 'committee') {
-        if (!d.committee) return false;
-      } else {
-        if (d.authority !== auth) return false;
-      }
-    }
 
     if (grp !== 'all') {
       if (String(d.group_num) !== String(grp)) return false;
@@ -639,23 +626,6 @@ filterSheetEl.addEventListener('click', e => {
   pill.classList.add('active');
   state.filterSheet = pill.dataset.value;
 
-  // Authority data exists only in the free list, so hide this filter completely elsewhere.
-  const hideAuthority = state.filterSheet === 'commercial' || state.filterSheet === 'special';
-  authorityFilterGroup.classList.toggle('hidden', hideAuthority);
-  if (hideAuthority) {
-    state.filterAuthority = 'all';
-    filterAuthEl.querySelectorAll('.pill').forEach(p => p.classList.toggle('active', p.dataset.value === 'all'));
-  }
-  applyFilters();
-});
-
-// Authority filter
-filterAuthEl.addEventListener('click', e => {
-  const pill = e.target.closest('.pill');
-  if (!pill) return;
-  filterAuthEl.querySelectorAll('.pill').forEach(p => p.classList.remove('active'));
-  pill.classList.add('active');
-  state.filterAuthority = pill.dataset.value;
   applyFilters();
 });
 
