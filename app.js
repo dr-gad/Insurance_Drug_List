@@ -15,6 +15,8 @@ const state = {
   filterGroup: 'all',
   renderOffset: 0,
   PAGE_SIZE: 60,
+  renderToken: 0,
+  renderTimer: null,
 };
 
 // ─── DOM REFS ──────────────────────────────────────────────
@@ -388,6 +390,12 @@ function applyFilters() {
 
 // ─── RENDER ────────────────────────────────────────────────
 function renderResults() {
+  state.renderToken += 1;
+  const token = state.renderToken;
+  if (state.renderTimer) {
+    clearTimeout(state.renderTimer);
+    state.renderTimer = null;
+  }
   resultsGrid.innerHTML = '';
 
   if (state.filtered.length === 0) {
@@ -398,13 +406,27 @@ function renderResults() {
 
   noResults.classList.add('hidden');
   state.renderOffset = 0;
+  renderNextChunk(token);
+}
 
-  // Build the current result set in one batch so scrolling never waits for new cards.
+function renderNextChunk(token) {
+  if (token !== state.renderToken) return;
+  const start = state.renderOffset;
+  const end = Math.min(start + state.PAGE_SIZE, state.filtered.length);
   const frag = document.createDocumentFragment();
-  state.filtered.forEach((drug, idx) => frag.appendChild(createCard(drug, idx)));
+  for (let idx = start; idx < end; idx += 1) {
+    frag.appendChild(createCard(state.filtered[idx], idx));
+  }
   resultsGrid.appendChild(frag);
-  state.renderOffset = state.filtered.length;
-  resultsMeta.innerHTML = `عرض <strong>${state.renderOffset.toLocaleString('ar-EG')}</strong> من أصل <strong>${state.filtered.length.toLocaleString('ar-EG')}</strong> نتيجة`;
+  state.renderOffset = end;
+  resultsMeta.innerHTML = `عرض <strong>${end.toLocaleString('ar-EG')}</strong> من أصل <strong>${state.filtered.length.toLocaleString('ar-EG')}</strong> نتيجة`;
+
+  if (end < state.filtered.length) {
+    // Yield to taps, keyboard input, and scrolling between every small batch.
+    state.renderTimer = setTimeout(() => renderNextChunk(token), 0);
+  } else {
+    state.renderTimer = null;
+  }
 }
 
 // ─── SVG ICONS ────────────────────────────────────────────
@@ -581,7 +603,7 @@ searchInput.addEventListener('input', () => {
   state.searchQuery = searchInput.value;
   clearBtn.classList.toggle('visible', !!searchInput.value);
   clearTimeout(searchTimeout);
-  searchTimeout = setTimeout(applyFilters, 180);
+  searchTimeout = setTimeout(applyFilters, 40);
 });
 
 clearBtn.addEventListener('click', () => {
