@@ -20,20 +20,10 @@
 
   <!-- Header -->
   <header class="site-header">
-    <div class="header-inner">
+    <div class="header-box">
+      <div class="header-inner">
       <div class="logo-wrap">
-        <div class="logo-icon">
-          <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <rect width="40" height="40" rx="12" fill="url(#logo-grad)"/>
-            <path d="M20 8v24M8 20h24" stroke="white" stroke-width="3.5" stroke-linecap="round"/>
-            <defs>
-              <linearGradient id="logo-grad" x1="0" y1="0" x2="40" y2="40">
-                <stop stop-color="#4f8ef7"/>
-                <stop offset="1" stop-color="#7c5cfc"/>
-              </linearGradient>
-            </defs>
-          </svg>
-        </div>
+        <img class="logo-icon" src="assets/hospital-logo.jpeg" alt="شعار مستشفى العاصمة الإدارية الجديدة" />
         <div class="logo-text">
           <span class="logo-title">قائمة أدوية التأمين الصحي</span>
           <span class="logo-sub">مستشفى العاصمة الإدارية الجديدة</span>
@@ -49,34 +39,22 @@
           <span class="stat-lbl">مجموعة</span>
         </div>
       </div>
-    </div>
-  </header>
-
-  <!-- Main Content -->
-  <main class="main-content">
-    <!-- Search Section -->
-    <section class="search-section">
-      <div class="search-box-wrap">
+      </div>
+      <div class="header-search">
         <div class="search-input-wrap" id="searchWrap">
           <svg class="search-icon" viewBox="0 0 24 24" fill="none">
             <circle cx="11" cy="11" r="7" stroke="currentColor" stroke-width="2"/>
             <path d="m16.5 16.5 4 4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
           </svg>
-          <input
-            type="search"
-            id="searchInput"
-            class="search-input"
-            placeholder="ابحث بالاسم العلمي أو التجاري أو الشكل الدوائي..."
-            autocomplete="off"
-            spellcheck="false"
-            dir="auto"
-          />
+          <input type="search" id="searchInput" class="search-input" placeholder="ابحث بالاسم العلمي أو التجاري أو الشكل الدوائي..." autocomplete="off" spellcheck="false" dir="auto" />
           <button class="clear-btn" id="clearBtn" aria-label="مسح البحث">✕</button>
         </div>
-
       </div>
-    </section>
+    </div>
+  </header>
 
+  <!-- Main Content -->
+  <main class="main-content">
     <!-- Filters -->
     <section class="filters-section">
       <div class="filters-row">
