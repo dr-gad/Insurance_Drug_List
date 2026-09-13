@@ -1511,3 +1511,12 @@ mark {
 @media (max-width: 768px) {
   .main-content { padding: 0 0.85rem 3rem; }
 }
+
+
+/* Automatically loaded results: keep the next batch ready before the user reaches the end. */
+.results-sentinel {
+  grid-column: 1 / -1;
+  height: 1px;
+  width: 100%;
+  pointer-events: none;
+}

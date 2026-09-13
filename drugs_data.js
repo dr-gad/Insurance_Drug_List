@@ -1,7 +1,6 @@
 window.DRUGS_DATA = {
   "free_drugs": [
     {
-      "serial": 1,
       "drug_name": "Acetylsalicylic Acid",
       "concentration": "300 mg",
       "drug_form": "Tab",
@@ -14,7 +13,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 2,
       "drug_name": "Diclofenac sodium",
       "concentration": "25 mg",
       "drug_form": "Tab",
@@ -27,7 +25,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 3,
       "drug_name": "Diclofenac sodium",
       "concentration": "50 mg",
       "drug_form": "Tab",
@@ -40,7 +37,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 4,
       "drug_name": "Diclofenac sodium",
       "concentration": "75 mg",
       "drug_form": "Amp",
@@ -53,7 +49,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 5,
       "drug_name": "Diclofenac sodium",
       "concentration": "100 mg",
       "drug_form": "Supp",
@@ -66,7 +61,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 6,
       "drug_name": "Indomethacin",
       "concentration": "100 mg",
       "drug_form": "Supp",
@@ -79,7 +73,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 7,
       "drug_name": "Indomethacin",
       "concentration": "50 mg",
       "drug_form": "Cap",
@@ -92,7 +85,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 8,
       "drug_name": "Indomethacin",
       "concentration": "50 mg",
       "drug_form": "Amp",
@@ -105,7 +97,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 9,
       "drug_name": "Piroxicam",
       "concentration": "10 mg",
       "drug_form": "Cap or Tab",
@@ -118,7 +109,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 10,
       "drug_name": "Piroxicam",
       "concentration": "20 mg",
       "drug_form": "Cap or Tab",
@@ -131,7 +121,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 11,
       "drug_name": "Ketoprofen",
       "concentration": "25 mg",
       "drug_form": "Tab",
@@ -144,7 +133,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 12,
       "drug_name": "Ketoprofen",
       "concentration": "50 mg",
       "drug_form": "Tab",
@@ -157,7 +145,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 13,
       "drug_name": "Ketoprofen",
       "concentration": "100 mg",
       "drug_form": "Supp",
@@ -170,7 +157,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 14,
       "drug_name": "Ketoprofen",
       "concentration": "100 mg",
       "drug_form": "Amp",
@@ -183,7 +169,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 15,
       "drug_name": "Ibuprofen",
       "concentration": "200 mg",
       "drug_form": "Tab",
@@ -196,7 +181,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 16,
       "drug_name": "Ibuprofen",
       "concentration": "100 mg / 5ml",
       "drug_form": "Syrup",
@@ -209,7 +193,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 17,
       "drug_name": "Paracetamol",
       "concentration": "500 mg",
       "drug_form": "Tab",
@@ -222,7 +205,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 18,
       "drug_name": "Paracetamol",
       "concentration": "1 gm",
       "drug_form": "Tab",
@@ -235,7 +217,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 19,
       "drug_name": "(Paracetamol 500 mg + Methionine) analgesic for liver patients ( impaired liver function)",
       "concentration": null,
       "drug_form": "Tab",
@@ -248,7 +229,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 20,
       "drug_name": "Anti-rheumatic",
       "concentration": null,
       "drug_form": "Oint",
@@ -261,7 +241,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 21,
       "drug_name": "glucosamine 500 mg+ Chondroitin 400 mg",
       "concentration": null,
       "drug_form": "Tab",
@@ -274,7 +253,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 22,
       "drug_name": "glucosamine + ascorbic acid",
       "concentration": null,
       "drug_form": "Tab",
@@ -287,7 +265,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 23,
       "drug_name": "glucosamine",
       "concentration": "500mg",
       "drug_form": "cap",
@@ -300,7 +277,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 24,
       "drug_name": "Diacerein",
       "concentration": "50mg",
       "drug_form": "Tab",
@@ -313,7 +289,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 25,
       "drug_name": "Flu Combination",
       "concentration": null,
       "drug_form": "Tab",
@@ -326,7 +301,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 26,
       "drug_name": "Chymotrypsin",
       "concentration": "5mg",
       "drug_form": "Amp",
@@ -339,7 +313,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 27,
       "drug_name": "Trypsin + Chymotrypsin",
       "concentration": null,
       "drug_form": "Tab",
@@ -352,7 +325,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 28,
       "drug_name": "Aescin",
       "concentration": "40 mg",
       "drug_form": "Tab",
@@ -365,7 +337,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 29,
       "drug_name": "Aescin + Diethyl amine Salicylate",
       "concentration": "1%+ 5 %",
       "drug_form": "Gel",
@@ -378,7 +349,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 30,
       "drug_name": "Ergotamine Tartarate+other Anti-migraine",
       "concentration": null,
       "drug_form": "Tab",
@@ -391,7 +361,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 31,
       "drug_name": "Colchicine (for Gout)",
       "concentration": "0.5 mg",
       "drug_form": "Tab",
@@ -404,7 +373,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 32,
       "drug_name": "Allopurinol",
       "concentration": "100 mg",
       "drug_form": "Tab",
@@ -417,7 +385,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 33,
       "drug_name": "Allopurinol",
       "concentration": "300 mg",
       "drug_form": "Tab",
@@ -430,7 +397,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 34,
       "drug_name": "Allopurinol 100 mg + Benzbromarone",
       "concentration": null,
       "drug_form": "Tab",
@@ -443,7 +409,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 35,
       "drug_name": "Hydroxychloroquine Sulphate",
       "concentration": "200 mg",
       "drug_form": "Tab",
@@ -456,7 +421,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 36,
       "drug_name": "Celecoxib",
       "concentration": "200 mg",
       "drug_form": "Cap or Tab",
@@ -469,7 +433,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 37,
       "drug_name": "Syrup Containing Alpha Amylase (student)",
       "concentration": null,
       "drug_form": "Syrup",
@@ -482,7 +445,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 38,
       "drug_name": "febuxostate",
       "concentration": "40mg",
       "drug_form": "tab",
@@ -495,7 +457,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 39,
       "drug_name": "febuxostate",
       "concentration": "80mg",
       "drug_form": "tab",
@@ -508,7 +469,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 40,
       "drug_name": "Meloxicam",
       "concentration": "7.5 mg",
       "drug_form": "tab",
@@ -521,7 +481,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 41,
       "drug_name": "Meloxicam",
       "concentration": "15 mg",
       "drug_form": "tab",
@@ -534,7 +493,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 42,
       "drug_name": "Meloxicam",
       "concentration": "15mg",
       "drug_form": "amp",
@@ -547,7 +505,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 43,
       "drug_name": "Etoricoxib",
       "concentration": "60 mg",
       "drug_form": "Tab",
@@ -560,7 +517,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 44,
       "drug_name": "Etoricoxib",
       "concentration": "90 mg",
       "drug_form": "Tab",
@@ -573,7 +529,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 45,
       "drug_name": "Etoricoxib",
       "concentration": "120 mg",
       "drug_form": "Tab",
@@ -586,7 +541,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 46,
       "drug_name": "Pyridostigmine or Distigmine",
       "concentration": "60 mg",
       "drug_form": "Tab",
@@ -599,7 +553,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 47,
       "drug_name": "Neostigmine",
       "concentration": "15 mg",
       "drug_form": "Tab",
@@ -612,7 +565,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 48,
       "drug_name": "Neostigmine",
       "concentration": "0.5 mg",
       "drug_form": "Amp",
@@ -625,7 +577,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 49,
       "drug_name": "Central muscle relaxant + Analgesics",
       "concentration": null,
       "drug_form": "Tab",
@@ -638,7 +589,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 50,
       "drug_name": "tizanidine",
       "concentration": "2mg,4mg",
       "drug_form": "tab",
@@ -651,7 +601,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 51,
       "drug_name": "Cyclobenzaprine",
       "concentration": "10mg",
       "drug_form": "tab",
@@ -664,7 +613,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 52,
       "drug_name": "Baclofen",
       "concentration": "10mg",
       "drug_form": "tab",
@@ -677,7 +625,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 53,
       "drug_name": "Baclofen",
       "concentration": "25mg",
       "drug_form": "tab",
@@ -690,7 +637,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 54,
       "drug_name": "Phenoxy-methyl penicillin sodium",
       "concentration": "1000.000 I.U",
       "drug_form": "Tab",
@@ -703,7 +649,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 55,
       "drug_name": "Phenoxy-methyl penicillin potassium",
       "concentration": "1200.000 I.U",
       "drug_form": "Tab",
@@ -716,7 +661,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 56,
       "drug_name": "Penicillin sodium",
       "concentration": "1.000.000 I.U",
       "drug_form": "Vial",
@@ -729,7 +673,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 57,
       "drug_name": "Penicillin procaine",
       "concentration": "300.000 I.U",
       "drug_form": "Vial",
@@ -742,7 +685,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 58,
       "drug_name": "Phenoxy – methyl penicillin ( student )",
       "concentration": "400 mg",
       "drug_form": "Vial",
@@ -755,7 +697,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 59,
       "drug_name": "Benzathin penicillin (protocol)",
       "concentration": "1.200.000 I.U",
       "drug_form": "Vial",
@@ -768,7 +709,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 60,
       "drug_name": "Amoxicillin",
       "concentration": "250 mg",
       "drug_form": "Cap",
@@ -781,7 +721,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 61,
       "drug_name": "Amoxicillin",
       "concentration": "500 mg",
       "drug_form": "Cap",
@@ -794,7 +733,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 62,
       "drug_name": "Amoxicillin",
       "concentration": "250 mg /5ml",
       "drug_form": "Susp",
@@ -807,7 +745,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 63,
       "drug_name": "Ampicillin",
       "concentration": "250 mg",
       "drug_form": "Cap",
@@ -820,7 +757,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 64,
       "drug_name": "Ampicillin",
       "concentration": "500 mg",
       "drug_form": "Cap",
@@ -833,7 +769,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 65,
       "drug_name": "Ampicillin",
       "concentration": "1 gm",
       "drug_form": "Vial",
@@ -846,7 +781,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 66,
       "drug_name": "Ampicillin ( student )",
       "concentration": "250 mg /5ml",
       "drug_form": "Susp",
@@ -859,7 +793,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 67,
       "drug_name": "Amoxicillin 250 mg+Flucloxacillin 250 mg",
       "concentration": "500 mg",
       "drug_form": "Cap",
@@ -872,7 +805,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 68,
       "drug_name": "Amoxicillin 125 mg+Flucloxacillin 125mg(student)",
       "concentration": "250 mg",
       "drug_form": "Susp",
@@ -885,7 +817,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 69,
       "drug_name": "Amoxicillin 200mg+Clavulanic acid 28.5mg /5ml (student)",
       "concentration": "200 mg+ 28.5 mg /5ml",
       "drug_form": "Susp",
@@ -898,7 +829,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 70,
       "drug_name": "Amoxicillin 400 mg Clavulanic acid 57mg / 5ml (student)",
       "concentration": "400 mg+ 57 mg/ 5ml",
       "drug_form": "Susp",
@@ -911,7 +841,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 71,
       "drug_name": "Amoxicillin 600mg + clavulanic acid 42.9mg susp",
       "concentration": "f",
       "drug_form": "susp",
@@ -924,7 +853,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 72,
       "drug_name": "Amoxicillin 875mg + clavulanic acid 125mg",
       "concentration": null,
       "drug_form": "Cap",
@@ -937,7 +865,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 73,
       "drug_name": "Amoxicillin 500mg+ clavulanic acid 125mg",
       "concentration": null,
       "drug_form": "Tab",
@@ -950,7 +877,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 74,
       "drug_name": "Cephalexin",
       "concentration": "250 mg",
       "drug_form": "Cap",
@@ -963,7 +889,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 75,
       "drug_name": "Cephalexin",
       "concentration": "500 mg",
       "drug_form": "Cap",
@@ -976,7 +901,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 76,
       "drug_name": "Cefadroxil",
       "concentration": "500 mg",
       "drug_form": "Tab/cap",
@@ -989,7 +913,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 77,
       "drug_name": "Cephalexin (student)",
       "concentration": "250 mg",
       "drug_form": "Susp",
@@ -1002,7 +925,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 78,
       "drug_name": "Doxycycline",
       "concentration": "100 mg",
       "drug_form": "Cap",
@@ -1015,7 +937,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 79,
       "drug_name": "Erythromycin",
       "concentration": "250 mg",
       "drug_form": "Tab",
@@ -1028,7 +949,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 80,
       "drug_name": "Erythromycin",
       "concentration": "500 mg",
       "drug_form": "Tab",
@@ -1041,7 +961,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 81,
       "drug_name": "Erythromycin (student)",
       "concentration": "200 mg / 5ml",
       "drug_form": "Susp",
@@ -1054,7 +973,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 82,
       "drug_name": "Azithromycin (student)",
       "concentration": "200 mg / 5ml",
       "drug_form": "Susp",
@@ -1067,7 +985,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 83,
       "drug_name": "Azithromycin 250 mg",
       "concentration": "250 mg",
       "drug_form": "Tab",
@@ -1080,7 +997,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 84,
       "drug_name": "Spiramycin",
       "concentration": "3 M.I.U",
       "drug_form": "Tab",
@@ -1093,7 +1009,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 85,
       "drug_name": "Spiramycin",
       "concentration": "1.5 M.I.U",
       "drug_form": "Tab",
@@ -1106,7 +1021,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 86,
       "drug_name": "Clarithromycin",
       "concentration": "500 mg",
       "drug_form": "Tab",
@@ -1119,7 +1033,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 87,
       "drug_name": "Clindamycin",
       "concentration": "150 mg",
       "drug_form": "Cap",
@@ -1132,7 +1045,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 88,
       "drug_name": "Clindamycin",
       "concentration": "300 mg",
       "drug_form": "Cap",
@@ -1145,7 +1057,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 89,
       "drug_name": "Thiomphenicol",
       "concentration": "250 mg",
       "drug_form": "Cap",
@@ -1158,7 +1069,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 90,
       "drug_name": "Gentamicin",
       "concentration": "80 mg",
       "drug_form": "Amp",
@@ -1171,7 +1081,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 91,
       "drug_name": "Ciprofloxacin",
       "concentration": "500 mg",
       "drug_form": "Tab",
@@ -1184,7 +1093,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 92,
       "drug_name": "levofloxacin 500",
       "concentration": "500mg",
       "drug_form": "Tab",
@@ -1197,7 +1105,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 93,
       "drug_name": "levofloxacin 750",
       "concentration": "750mg",
       "drug_form": "Tab",
@@ -1210,7 +1117,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 94,
       "drug_name": "Sulphamethoxazole 400 mg + trimethoprim 80 mg",
       "concentration": "400 mg+80 mg",
       "drug_form": "Tab",
@@ -1223,7 +1129,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 95,
       "drug_name": "Sulphamethoxazole 200 mg + trimethoprim 40 mg (student)",
       "concentration": "200 mg+40 mg",
       "drug_form": "Susp",
@@ -1236,7 +1141,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 96,
       "drug_name": "Linezolid",
       "concentration": "600mg",
       "drug_form": "Tab",
@@ -1249,7 +1153,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 97,
       "drug_name": "Rifampicin",
       "concentration": "150 mg",
       "drug_form": "Cap",
@@ -1262,7 +1165,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 98,
       "drug_name": "Rifampicin",
       "concentration": "300 mg",
       "drug_form": "Cap",
@@ -1275,7 +1177,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 99,
       "drug_name": "Rifampicin 2 %",
       "concentration": "100 mg / 5 ml",
       "drug_form": "Susp",
@@ -1288,7 +1189,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 100,
       "drug_name": "Streptomycin",
       "concentration": "1 gm",
       "drug_form": "Vial",
@@ -1301,7 +1201,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 101,
       "drug_name": "Isoniazid",
       "concentration": "100 mg",
       "drug_form": "Tab",
@@ -1314,7 +1213,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 102,
       "drug_name": "Isoniazid 150 mg + Rifampicin 300 mg",
       "concentration": "150 mg+300 mg",
       "drug_form": "Cap",
@@ -1327,7 +1225,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 103,
       "drug_name": "Isoniazid150mg+Rifampicin+Ethambutol+ Pyrazinamide",
       "concentration": "طقف نردلا زكارم ىف لوكوتورب",
       "drug_form": "Tab",
@@ -1340,7 +1237,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 104,
       "drug_name": "Pyrazinamide",
       "concentration": "500 mg",
       "drug_form": "Tab",
@@ -1353,7 +1249,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 105,
       "drug_name": "Ethambutol",
       "concentration": "500 mg",
       "drug_form": "Tab",
@@ -1366,7 +1261,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 106,
       "drug_name": "Dapsone",
       "concentration": "50 mg",
       "drug_form": "Tab",
@@ -1379,7 +1273,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 107,
       "drug_name": "Nitrofurantoin",
       "concentration": "100 mg",
       "drug_form": "Cap",
@@ -1392,7 +1285,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 108,
       "drug_name": "Nystatin",
       "concentration": "100.000 I.U/ml",
       "drug_form": "Susp",
@@ -1405,7 +1297,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 109,
       "drug_name": "Fluconazole",
       "concentration": "150 mg",
       "drug_form": "Cap or Tab",
@@ -1418,7 +1309,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 110,
       "drug_name": "Itraconazole",
       "concentration": "100 mg",
       "drug_form": "Tab",
@@ -1431,7 +1321,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 111,
       "drug_name": "Clotrimazol",
       "concentration": null,
       "drug_form": "Vag Tab",
@@ -1444,7 +1333,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 112,
       "drug_name": "Griseofulvine",
       "concentration": "125 mg",
       "drug_form": "Tab",
@@ -1457,7 +1345,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 112,
       "drug_name": "Acyclovir 200 mg",
       "concentration": "200 mg",
       "drug_form": "Tab",
@@ -1470,7 +1357,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 113,
       "drug_name": "Acyclovir 400 mg",
       "concentration": "400 mg",
       "drug_form": "Tab",
@@ -1483,7 +1369,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 114,
       "drug_name": "Acyclovir 800 mg",
       "concentration": "800 mg",
       "drug_form": "Tab",
@@ -1496,7 +1381,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 115,
       "drug_name": "Lamivudine",
       "concentration": null,
       "drug_form": "Tab",
@@ -1509,7 +1393,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 116,
       "drug_name": "Entecavir",
       "concentration": "0.5mg",
       "drug_form": "Tab",
@@ -1522,7 +1405,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 117,
       "drug_name": "Entecavir",
       "concentration": "1mg",
       "drug_form": "Tab",
@@ -1535,7 +1417,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 118,
       "drug_name": "Metronidazole",
       "concentration": "250 mg",
       "drug_form": "Tab",
@@ -1548,7 +1429,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 119,
       "drug_name": "Metronidazole (student)",
       "concentration": "125 mg /5ml",
       "drug_form": "Susp",
@@ -1561,7 +1441,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 120,
       "drug_name": "Metronidazole",
       "concentration": "500 mg",
       "drug_form": "Supp",
@@ -1574,7 +1453,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 121,
       "drug_name": "Metronidazole",
       "concentration": "500 mg",
       "drug_form": "Vag.supp",
@@ -1587,7 +1465,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 122,
       "drug_name": "Diiodohydroxyquinoline",
       "concentration": "250 mg",
       "drug_form": "Tab",
@@ -1600,7 +1477,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 123,
       "drug_name": "Metronidazole+Diloxanide Furoate",
       "concentration": null,
       "drug_form": "Tab",
@@ -1613,7 +1489,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 124,
       "drug_name": "Diloxanide Furoate",
       "concentration": "500 mg",
       "drug_form": "Tab",
@@ -1626,7 +1501,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 125,
       "drug_name": "Mebendazole",
       "concentration": "100 mg /5ml",
       "drug_form": "Susp",
@@ -1639,7 +1513,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 126,
       "drug_name": "Mebendazole",
       "concentration": "100 mg",
       "drug_form": "Tab",
@@ -1652,7 +1525,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 127,
       "drug_name": "Flubendazole",
       "concentration": "100 mg",
       "drug_form": "Tab",
@@ -1665,7 +1537,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 128,
       "drug_name": "Flubendazole (student)",
       "concentration": "20 mg / ml",
       "drug_form": "Susp",
@@ -1678,7 +1549,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 129,
       "drug_name": "Levamisole Hcl",
       "concentration": "40 mg",
       "drug_form": "Tab",
@@ -1691,7 +1561,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 130,
       "drug_name": "Niclosamide",
       "concentration": "500 mg",
       "drug_form": "Tab",
@@ -1704,7 +1573,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 131,
       "drug_name": "Chloroquine phosphate",
       "concentration": "250 mg",
       "drug_form": "Tab",
@@ -1717,7 +1585,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 132,
       "drug_name": "Chloroquine phosphate",
       "concentration": "80 mg / 5ml",
       "drug_form": "Syrup",
@@ -1730,7 +1597,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 133,
       "drug_name": "Bromazepam",
       "concentration": "1.5 mg",
       "drug_form": "Tab",
@@ -1743,7 +1609,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 134,
       "drug_name": "Bromazepam",
       "concentration": "3 mg",
       "drug_form": "Tab",
@@ -1756,7 +1621,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 135,
       "drug_name": "Fluspirilen",
       "concentration": "2 mg / ml",
       "drug_form": "Amp",
@@ -1769,7 +1633,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 136,
       "drug_name": "Trifluoperazine",
       "concentration": "5 mg",
       "drug_form": "Tab",
@@ -1782,7 +1645,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 137,
       "drug_name": "Fluphenazine",
       "concentration": "25 mg / ml",
       "drug_form": "Vial",
@@ -1795,7 +1657,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 138,
       "drug_name": "Pimozide",
       "concentration": "4 mg",
       "drug_form": "Tab",
@@ -1808,7 +1669,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 139,
       "drug_name": "Haloperidol",
       "concentration": "5 mg /ml",
       "drug_form": "Amp",
@@ -1821,7 +1681,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 140,
       "drug_name": "Aripiprazole",
       "concentration": "10 mg",
       "drug_form": "Cap or Tab",
@@ -1834,7 +1693,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 141,
       "drug_name": "Aripiprazole",
       "concentration": "30 mg",
       "drug_form": "Cap or Tab",
@@ -1847,7 +1705,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 142,
       "drug_name": "Chlorpromazine Hcl",
       "concentration": "25 mg",
       "drug_form": "Tab",
@@ -1860,7 +1717,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 143,
       "drug_name": "Chlorpromazine Hcl",
       "concentration": "100 mg",
       "drug_form": "Tab",
@@ -1873,7 +1729,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 145,
       "drug_name": "Haloperidol",
       "concentration": "1.5 mg",
       "drug_form": "Tab",
@@ -1886,7 +1741,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 146,
       "drug_name": "Haloperidol",
       "concentration": "5 mg",
       "drug_form": "Tab",
@@ -1899,7 +1753,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 147,
       "drug_name": "Haloperidol",
       "concentration": "50mg/ml",
       "drug_form": "amp",
@@ -1912,7 +1765,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 148,
       "drug_name": "Risperidone",
       "concentration": "1 mg",
       "drug_form": "Tab",
@@ -1925,7 +1777,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 149,
       "drug_name": "Risperidone",
       "concentration": "2 mg",
       "drug_form": "Tab",
@@ -1938,7 +1789,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 150,
       "drug_name": "Risperidone",
       "concentration": "3 mg",
       "drug_form": "Tab",
@@ -1951,7 +1801,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 151,
       "drug_name": "Risperidone",
       "concentration": "1 mg / ml",
       "drug_form": "Syrup",
@@ -1964,7 +1813,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 152,
       "drug_name": "Lithium Carbonate",
       "concentration": "400 mg",
       "drug_form": "Tab",
@@ -1977,7 +1825,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 153,
       "drug_name": "Clomipramine Hcl",
       "concentration": "25 mg",
       "drug_form": "Tab",
@@ -1990,7 +1837,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 154,
       "drug_name": "Clomipramine Hcl",
       "concentration": "75 mg",
       "drug_form": "Tab",
@@ -2003,7 +1849,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 155,
       "drug_name": "Amitriptyline Hcl",
       "concentration": "10 mg",
       "drug_form": "Tab",
@@ -2016,7 +1861,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 156,
       "drug_name": "Amitriptyline Hcl",
       "concentration": "25 mg",
       "drug_form": "Tab",
@@ -2029,7 +1873,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 157,
       "drug_name": "Duloxetine 30 mg Tab",
       "concentration": "30 mg",
       "drug_form": "Tab",
@@ -2042,7 +1885,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 158,
       "drug_name": "Duloxetine 60 mg Tab",
       "concentration": "60 mg",
       "drug_form": "Tab",
@@ -2055,7 +1897,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 159,
       "drug_name": "Atomextine",
       "concentration": "10,18,25,40,60 mg",
       "drug_form": "Tab",
@@ -2068,7 +1909,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 160,
       "drug_name": "Atomextine Syp",
       "concentration": null,
       "drug_form": "Syp",
@@ -2081,7 +1921,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 161,
       "drug_name": "Imipramine Hcl",
       "concentration": "25 mg",
       "drug_form": "Tab",
@@ -2094,7 +1933,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 162,
       "drug_name": "Nortripyline 10 mg + Fluphenazine 0.5 mg",
       "concentration": "10 mg+0.5 mg",
       "drug_form": "Tab",
@@ -2107,7 +1945,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 163,
       "drug_name": "Trazodone Hcl",
       "concentration": "50 mg",
       "drug_form": "Tab",
@@ -2120,7 +1957,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 164,
       "drug_name": "Trazodone Hcl",
       "concentration": "100 mg",
       "drug_form": "Tab",
@@ -2133,7 +1969,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 165,
       "drug_name": "Dothiepin 25 mg",
       "concentration": "25 mg",
       "drug_form": "cap",
@@ -2146,7 +1981,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 166,
       "drug_name": "Dothiepin 75 mg",
       "concentration": "75 mg",
       "drug_form": "tab",
@@ -2159,7 +1993,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 167,
       "drug_name": "oxacrabazine",
       "concentration": "60 mg",
       "drug_form": "bottle",
@@ -2172,7 +2005,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 168,
       "drug_name": "concerta",
       "concentration": "18,27,54mg",
       "drug_form": "tab",
@@ -2185,7 +2017,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 169,
       "drug_name": "Citalopram",
       "concentration": "20 mg",
       "drug_form": "Tab",
@@ -2198,7 +2029,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 170,
       "drug_name": "Fluoxetine",
       "concentration": "10 mg",
       "drug_form": "Cap",
@@ -2211,7 +2041,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 171,
       "drug_name": "Fluoxetine",
       "concentration": "20 mg",
       "drug_form": "Cap",
@@ -2224,7 +2053,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 172,
       "drug_name": "Clozapine",
       "concentration": "25 mg",
       "drug_form": "Cap",
@@ -2237,7 +2065,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 173,
       "drug_name": "Clozapine",
       "concentration": "100 mg",
       "drug_form": "Cap",
@@ -2250,7 +2077,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 174,
       "drug_name": "Escitalopram",
       "concentration": null,
       "drug_form": "tab",
@@ -2263,7 +2089,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 175,
       "drug_name": "Sertraline",
       "concentration": "50mg",
       "drug_form": "tab",
@@ -2276,7 +2101,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 176,
       "drug_name": "Invega",
       "concentration": "100,150mg",
       "drug_form": "amp",
@@ -2289,7 +2113,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 177,
       "drug_name": "Olanzapine",
       "concentration": "10mg",
       "drug_form": "tab",
@@ -2302,7 +2125,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 178,
       "drug_name": "Quetiapine",
       "concentration": "100mg",
       "drug_form": "tab",
@@ -2315,7 +2137,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 179,
       "drug_name": "spravato",
       "concentration": "20mg",
       "drug_form": "nasal spray",
@@ -2328,7 +2149,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 180,
       "drug_name": "Carbamazepine",
       "concentration": "200 mg",
       "drug_form": "Tab",
@@ -2341,7 +2161,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 181,
       "drug_name": "Carbamazepine CR",
       "concentration": "200 mg",
       "drug_form": "Tab",
@@ -2354,7 +2173,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 182,
       "drug_name": "Carbamazepine CR",
       "concentration": "400 mg",
       "drug_form": "Tab",
@@ -2367,7 +2185,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 183,
       "drug_name": "Oxacarbamazepine",
       "concentration": "300mg",
       "drug_form": "Tab",
@@ -2380,7 +2197,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 184,
       "drug_name": "oxcarbazine 60mg",
       "concentration": "60 mg",
       "drug_form": "syrup",
@@ -2393,7 +2209,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 185,
       "drug_name": "Clonazepam",
       "concentration": "0.5 mg",
       "drug_form": "Tab",
@@ -2406,7 +2221,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 186,
       "drug_name": "Clonazepam",
       "concentration": "2 mg",
       "drug_form": "Tab",
@@ -2419,7 +2233,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 187,
       "drug_name": "Gabapentin",
       "concentration": "100 mg",
       "drug_form": "Cap or Tab",
@@ -2432,7 +2245,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 188,
       "drug_name": "Gabapentin",
       "concentration": "400 mg",
       "drug_form": "Cap or Tab",
@@ -2445,7 +2257,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 189,
       "drug_name": "Lamotrigine",
       "concentration": "25 mg",
       "drug_form": "Tab",
@@ -2458,7 +2269,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 190,
       "drug_name": "Lamotrigine",
       "concentration": "50 mg",
       "drug_form": "Tab",
@@ -2471,7 +2281,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 191,
       "drug_name": "Lamotrigine",
       "concentration": "100 mg",
       "drug_form": "Tab",
@@ -2484,7 +2293,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 192,
       "drug_name": "Phenytoin Na",
       "concentration": "50 mg",
       "drug_form": "Cap",
@@ -2497,7 +2305,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 193,
       "drug_name": "Phenytoin Na",
       "concentration": "100 mg",
       "drug_form": "Cap",
@@ -2510,7 +2317,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 194,
       "drug_name": "Phenytoin Na (student)",
       "concentration": "50 mg / 5 ml",
       "drug_form": "Syrup",
@@ -2523,7 +2329,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 195,
       "drug_name": "Topiramate",
       "concentration": "25 mg",
       "drug_form": "Cap or Tab",
@@ -2536,7 +2341,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 196,
       "drug_name": "Topiramate",
       "concentration": "100 mg",
       "drug_form": "Cap or Tab",
@@ -2549,7 +2353,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 197,
       "drug_name": "Sodium Valproate",
       "concentration": "200 mg",
       "drug_form": "Cap",
@@ -2562,7 +2365,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 198,
       "drug_name": "Sodium valproate + valproic acid",
       "concentration": "500 mg",
       "drug_form": "Tab",
@@ -2575,7 +2377,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 199,
       "drug_name": "Levetiracetam",
       "concentration": "500 mg",
       "drug_form": "Tab",
@@ -2588,7 +2389,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 200,
       "drug_name": "Levetiracetam",
       "concentration": "1000mg",
       "drug_form": "Tab",
@@ -2601,7 +2401,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 201,
       "drug_name": "Levetiracetam",
       "concentration": "100mg",
       "drug_form": "syp",
@@ -2614,7 +2413,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 202,
       "drug_name": "Pregabalin",
       "concentration": "75 mg",
       "drug_form": "Tab",
@@ -2627,7 +2425,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 203,
       "drug_name": "Pregabalin",
       "concentration": "100 mg",
       "drug_form": "Tab",
@@ -2640,7 +2437,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 204,
       "drug_name": "lacosamide 50 mg tab",
       "concentration": "50 mg",
       "drug_form": "Tab",
@@ -2653,7 +2449,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 205,
       "drug_name": "lacosamide 100 mg tab",
       "concentration": "100 mg",
       "drug_form": "Tab",
@@ -2666,7 +2461,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 206,
       "drug_name": "lacosamide syp",
       "concentration": null,
       "drug_form": "Syp",
@@ -2679,7 +2473,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 207,
       "drug_name": "Valproic acid",
       "concentration": "150 mg",
       "drug_form": "Cap",
@@ -2692,7 +2485,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 208,
       "drug_name": "Valproic acid",
       "concentration": "300 mg",
       "drug_form": "Cap",
@@ -2705,7 +2497,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 209,
       "drug_name": "Valproic acid (student)",
       "concentration": "300 ml",
       "drug_form": "Syrup",
@@ -2718,7 +2509,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 210,
       "drug_name": "Benztropine Mesylate",
       "concentration": "2mg",
       "drug_form": "Tab",
@@ -2731,7 +2521,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 211,
       "drug_name": "Biperiden HCL 2 mg",
       "concentration": "2mg",
       "drug_form": "Tab",
@@ -2744,7 +2533,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 212,
       "drug_name": "Levodopa 250 mg + carbidopa 25 mg",
       "concentration": "250 mg+25 mg",
       "drug_form": "Tab",
@@ -2757,7 +2545,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 213,
       "drug_name": "Carbidopa 37.5 mg+ Levodopa 150 mg+ Entacapone 200 mg",
       "concentration": "37.5mg+150mg +200mg",
       "drug_form": "Cap or Tab",
@@ -2770,7 +2557,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 214,
       "drug_name": "pramipexole",
       "concentration": "0.18 (0.25) mg-0.7 (1) mg",
       "drug_form": "Tab",
@@ -2783,7 +2569,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 215,
       "drug_name": "Rasagiline",
       "concentration": "1mg",
       "drug_form": "tab",
@@ -2796,7 +2581,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 216,
       "drug_name": "Digoxin",
       "concentration": "0.25 mg",
       "drug_form": "Tab",
@@ -2809,7 +2593,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 217,
       "drug_name": "Amiodarone",
       "concentration": "200 mg",
       "drug_form": "Tab",
@@ -2822,7 +2605,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 218,
       "drug_name": "Propafenone",
       "concentration": "150 mg",
       "drug_form": "Tab",
@@ -2835,7 +2617,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 219,
       "drug_name": "Dipyridamole",
       "concentration": "75 mg",
       "drug_form": "Tab",
@@ -2848,7 +2629,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 220,
       "drug_name": "Quinidine Sulphate",
       "concentration": "250 mg",
       "drug_form": "Tab",
@@ -2861,7 +2641,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 221,
       "drug_name": "Propranolol HCL",
       "concentration": "10 mg",
       "drug_form": "Tab",
@@ -2874,7 +2653,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 222,
       "drug_name": "Propranolol HCL",
       "concentration": "40 mg",
       "drug_form": "Tab",
@@ -2887,7 +2665,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 223,
       "drug_name": "Atenolol",
       "concentration": "50 mg",
       "drug_form": "Tab",
@@ -2900,7 +2677,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 224,
       "drug_name": "Atenolol",
       "concentration": "100 mg",
       "drug_form": "Tab",
@@ -2913,7 +2689,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 225,
       "drug_name": "Bisoprolol",
       "concentration": "5 mg, 2.5 mg",
       "drug_form": "Tab",
@@ -2926,7 +2701,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 226,
       "drug_name": "Bisoprolol + HCT",
       "concentration": "5 mg + 12.5MG",
       "drug_form": "Tab",
@@ -2939,7 +2713,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 227,
       "drug_name": "Carvedilol",
       "concentration": "6.25 mg",
       "drug_form": "Tab",
@@ -2952,7 +2725,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 228,
       "drug_name": "Carvedilol",
       "concentration": "12.5 mg",
       "drug_form": "Tab",
@@ -2965,7 +2737,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 229,
       "drug_name": "Carvedilol",
       "concentration": "25 mg",
       "drug_form": "Tab",
@@ -2978,7 +2749,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 230,
       "drug_name": "Nebivolol 2.5mg",
       "concentration": "2.5mg",
       "drug_form": "tab",
@@ -2991,7 +2761,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 231,
       "drug_name": "Nebivolol 5mg",
       "concentration": "5mg",
       "drug_form": "tab",
@@ -3004,7 +2773,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 232,
       "drug_name": "Nebivolol 5mg + HCT12.5",
       "concentration": "5mg+12.5mg",
       "drug_form": "tab",
@@ -3017,7 +2785,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 233,
       "drug_name": "Nebivolol 5mg + HCT25",
       "concentration": "5mg+25mg",
       "drug_form": "tab",
@@ -3030,7 +2797,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 234,
       "drug_name": "Labetalol",
       "concentration": "100mg",
       "drug_form": "tab",
@@ -3043,7 +2809,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 235,
       "drug_name": "Labetalol",
       "concentration": "200mg",
       "drug_form": "tab",
@@ -3056,7 +2821,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 236,
       "drug_name": "Metoprolol",
       "concentration": "25ng",
       "drug_form": "tab",
@@ -3069,7 +2833,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 237,
       "drug_name": "Metoprolol",
       "concentration": "50mg",
       "drug_form": "tab",
@@ -3082,7 +2845,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 238,
       "drug_name": "Metoprolol",
       "concentration": "100mg",
       "drug_form": "tab",
@@ -3095,7 +2857,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 239,
       "drug_name": "Reserpine + Clopamide",
       "concentration": null,
       "drug_form": "Tab",
@@ -3108,7 +2869,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 240,
       "drug_name": "Reserpine + Clopamide + Dihydroergocristine",
       "concentration": "0.1mg+5mg+ 0.5 mg",
       "drug_form": "Tab",
@@ -3121,7 +2881,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 241,
       "drug_name": "Captopril",
       "concentration": "25 mg",
       "drug_form": "Tab",
@@ -3134,7 +2893,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 242,
       "drug_name": "Alpha-methyl dopa",
       "concentration": "250 mg",
       "drug_form": "Tab",
@@ -3147,7 +2905,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 243,
       "drug_name": "Enalapril",
       "concentration": "10mg, 20mg",
       "drug_form": "Tab",
@@ -3160,7 +2917,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 244,
       "drug_name": "Captopril + Hydrochlorothiazide",
       "concentration": "50 mg+25 mg",
       "drug_form": "Tab",
@@ -3173,7 +2929,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 245,
       "drug_name": "captopril 50mg + indapamide 2.5mg",
       "concentration": "50mg + 2.5mg",
       "drug_form": "Tab",
@@ -3186,7 +2941,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 246,
       "drug_name": "Lisinopril",
       "concentration": "5 mg",
       "drug_form": "Tab",
@@ -3199,7 +2953,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 247,
       "drug_name": "Lisinopril",
       "concentration": "10 mg",
       "drug_form": "Tab",
@@ -3212,7 +2965,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 248,
       "drug_name": "Lisinopril 20mg + HCT12.5",
       "concentration": "20mg+12.5",
       "drug_form": "Tab",
@@ -3225,7 +2977,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 249,
       "drug_name": "Ramipril 2.5 mg",
       "concentration": "2.5mg",
       "drug_form": "Tab",
@@ -3238,7 +2989,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 250,
       "drug_name": "Ramipril 10 mg",
       "concentration": "10 mg",
       "drug_form": "Tab",
@@ -3251,7 +3001,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 251,
       "drug_name": "Ramipril 5 mg+Felodipine 5 mg",
       "concentration": null,
       "drug_form": "Tab",
@@ -3264,7 +3013,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 252,
       "drug_name": "Ramipril 2.5mg +HCT 12.5",
       "concentration": "2.5mg + 12.5mg",
       "drug_form": "tab",
@@ -3277,7 +3025,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 253,
       "drug_name": "Ramipril 5mg +HCT25",
       "concentration": "5mg + 25mg",
       "drug_form": "tab",
@@ -3290,7 +3037,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 254,
       "drug_name": "Ramipril 10mg +HCT 25",
       "concentration": "10mg + 25mg",
       "drug_form": "tab",
@@ -3303,7 +3049,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 255,
       "drug_name": "Losartan 50 mg + Hydrochlorothiazide 12.5 mg",
       "concentration": "50mg+12.5mg",
       "drug_form": "Tab",
@@ -3316,7 +3061,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 256,
       "drug_name": "Losartan 100 mg + Hydrochlorothiazide 25 mg",
       "concentration": "100mg+25mg",
       "drug_form": "Tab",
@@ -3329,7 +3073,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 257,
       "drug_name": "losartan",
       "concentration": "50mg",
       "drug_form": "Tab",
@@ -3342,7 +3085,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 258,
       "drug_name": "losartan",
       "concentration": "100mg",
       "drug_form": "Tab",
@@ -3355,7 +3097,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 259,
       "drug_name": "olmesartan",
       "concentration": "20mg",
       "drug_form": "Tab",
@@ -3368,7 +3109,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 260,
       "drug_name": "olmesartan",
       "concentration": "40mg",
       "drug_form": "Tab",
@@ -3381,7 +3121,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 261,
       "drug_name": "olmesartan 20mg+HCT 12.5",
       "concentration": "20mg+12.5",
       "drug_form": "Tab",
@@ -3394,7 +3133,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 262,
       "drug_name": "olmesartan 20mg+amlodipine 5mg",
       "concentration": "20mg+5mg",
       "drug_form": "Tab",
@@ -3407,7 +3145,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 263,
       "drug_name": "Candesartan Cilexetil",
       "concentration": "8 mg / 16 mg",
       "drug_form": "Tab",
@@ -3420,7 +3157,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 264,
       "drug_name": "Candesartan Cilexetil16mg+hydrochlorothiazide12.5 mg",
       "concentration": "16 mg+12.5mg",
       "drug_form": "Tab",
@@ -3433,7 +3169,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 265,
       "drug_name": "Glyceryl Trinitrate",
       "concentration": "2.5 mg",
       "drug_form": "Cap",
@@ -3446,7 +3181,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 266,
       "drug_name": "Glyceryl Trinitrate",
       "concentration": "5 mg",
       "drug_form": "Patch",
@@ -3459,7 +3193,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 267,
       "drug_name": "Isosorbid Dinitrates",
       "concentration": "5 mg subling",
       "drug_form": "Tab",
@@ -3472,7 +3205,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 268,
       "drug_name": "Isosorbid Dinitrates",
       "concentration": "10 mg",
       "drug_form": "Tab",
@@ -3485,7 +3217,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 269,
       "drug_name": "Isosorbid Dinitrates",
       "concentration": "20 mg",
       "drug_form": "Tab",
@@ -3498,7 +3229,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 270,
       "drug_name": "Isosorbid Mononitrate",
       "concentration": "20 mg",
       "drug_form": "Tab",
@@ -3511,7 +3241,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 271,
       "drug_name": "Isosorbid Mononitrate",
       "concentration": "40 mg",
       "drug_form": "Cap",
@@ -3524,7 +3253,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 272,
       "drug_name": "Isosorbid Mononitrate",
       "concentration": "50 mg",
       "drug_form": "Cap",
@@ -3537,7 +3265,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 273,
       "drug_name": "Isosorbid Mononitrate",
       "concentration": "100 mg",
       "drug_form": "Cap",
@@ -3550,7 +3277,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 274,
       "drug_name": "Nifedipine retard",
       "concentration": "20 mg",
       "drug_form": "Tab",
@@ -3563,7 +3289,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 275,
       "drug_name": "Verapamil HCL",
       "concentration": "40 mg",
       "drug_form": "Tab",
@@ -3576,7 +3301,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 276,
       "drug_name": "Verapamil HCL",
       "concentration": "80 mg",
       "drug_form": "Tab",
@@ -3589,7 +3313,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 277,
       "drug_name": "ivabradine",
       "concentration": "5",
       "drug_form": "Tab",
@@ -3602,7 +3325,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 278,
       "drug_name": "ivabradine",
       "concentration": "7.5",
       "drug_form": "Tab",
@@ -3615,7 +3337,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 279,
       "drug_name": "Verapamil HCL",
       "concentration": "240 mg",
       "drug_form": "Tab",
@@ -3628,7 +3349,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 280,
       "drug_name": "Diltiazem HCL",
       "concentration": "60 mg",
       "drug_form": "Tab",
@@ -3641,7 +3361,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 281,
       "drug_name": "Diltiazem HCL",
       "concentration": "90 mg",
       "drug_form": "Tab",
@@ -3654,7 +3373,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 282,
       "drug_name": "Diltiazem HCL",
       "concentration": "120 mg",
       "drug_form": "Tab",
@@ -3667,7 +3385,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 283,
       "drug_name": "Amlodipine",
       "concentration": "5 mg, 10 mg",
       "drug_form": "Tab",
@@ -3680,7 +3397,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 284,
       "drug_name": "amlodipine10mg +perindopril 10mg",
       "concentration": "10mg/10 mg",
       "drug_form": "Tab",
@@ -3693,7 +3409,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 285,
       "drug_name": "Amlodipine 5mg +perindopril 5 mg",
       "concentration": "5mg/5 mg",
       "drug_form": "Tab",
@@ -3706,7 +3421,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 286,
       "drug_name": "Amlodipine 5mg +valsartan 160mg",
       "concentration": "5mg+160mg",
       "drug_form": "Tab",
@@ -3719,7 +3433,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 287,
       "drug_name": "Amlodipine 10mg +valsartan 160mg",
       "concentration": "10mg+160mg",
       "drug_form": "Tab",
@@ -3732,7 +3445,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 288,
       "drug_name": "valsartan 160mg + HCT 25mg",
       "concentration": "160mg+ 25mg",
       "drug_form": "Tab",
@@ -3745,7 +3457,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 289,
       "drug_name": "valsartan 160mg + HCT 12.5mg",
       "concentration": "160mg+12.5 mg",
       "drug_form": "Tab",
@@ -3758,7 +3469,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 290,
       "drug_name": "valsartan 80mg + HCT 12.5mg",
       "concentration": "80mg+12.5mg",
       "drug_form": "Tab",
@@ -3771,7 +3481,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 291,
       "drug_name": "valsartan 40mg",
       "concentration": "40 mg",
       "drug_form": "Tab",
@@ -3784,7 +3493,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 292,
       "drug_name": "valsartan 160mg",
       "concentration": "160mg",
       "drug_form": "Tab",
@@ -3797,7 +3505,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 293,
       "drug_name": "Trimetazidine",
       "concentration": "20 mg",
       "drug_form": "Tab",
@@ -3810,7 +3517,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 294,
       "drug_name": "Trimetazidine",
       "concentration": "35 mg",
       "drug_form": "Tab",
@@ -3823,7 +3529,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 295,
       "drug_name": "Acetyl Salicylic Acid",
       "concentration": "75 mg",
       "drug_form": "Tab",
@@ -3836,7 +3541,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 296,
       "drug_name": "Acetyl Salicylic Acid",
       "concentration": "81 mg",
       "drug_form": "Tab",
@@ -3849,7 +3553,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 297,
       "drug_name": "Ticagrelor (protocol)",
       "concentration": "90 mg",
       "drug_form": "Tab",
@@ -3862,7 +3565,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 298,
       "drug_name": "Clopidogrel (protocol)",
       "concentration": "75 mg",
       "drug_form": "Tab",
@@ -3875,7 +3577,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 299,
       "drug_name": "Clopidogrel 75 mg + Aspirin",
       "concentration": "75 mg",
       "drug_form": "Tab",
@@ -3888,7 +3589,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 300,
       "drug_name": "Indapamide",
       "concentration": "2.5 mg",
       "drug_form": "Tab",
@@ -3901,7 +3601,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 301,
       "drug_name": "Fenofibrate",
       "concentration": "200 mg",
       "drug_form": "Tab",
@@ -3914,7 +3613,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 302,
       "drug_name": "Fenofibrate",
       "concentration": "300 mg",
       "drug_form": "Tab",
@@ -3927,7 +3625,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 303,
       "drug_name": "atrovastatin",
       "concentration": "10 mg",
       "drug_form": "Tab",
@@ -3940,7 +3637,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 304,
       "drug_name": "atrovastatin",
       "concentration": "20 mg",
       "drug_form": "Tab",
@@ -3953,7 +3649,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 305,
       "drug_name": "atrovastatin",
       "concentration": "40 mg",
       "drug_form": "Tab",
@@ -3966,7 +3661,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 306,
       "drug_name": "Rosuvastatin",
       "concentration": "5mg",
       "drug_form": "Tab",
@@ -3979,7 +3673,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 307,
       "drug_name": "Rosuvastatin",
       "concentration": "10mg",
       "drug_form": "Tab",
@@ -3992,7 +3685,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 308,
       "drug_name": "Rosuvastatin",
       "concentration": "20mg",
       "drug_form": "Tab",
@@ -4005,7 +3697,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 309,
       "drug_name": "Ezetimibe 10 mg + Rosuvastatin 10 mg",
       "concentration": "10mg+10mg",
       "drug_form": "Tab",
@@ -4018,7 +3709,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 310,
       "drug_name": "Ezetimibe 10 mg + Rosuvastatin 20 mg",
       "concentration": "10mg+20mg",
       "drug_form": "Tab",
@@ -4031,7 +3721,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 311,
       "drug_name": "simvastatin10 mg+ ezitimibe 10mg",
       "concentration": "10mg+10mg",
       "drug_form": "Tab",
@@ -4044,7 +3733,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 312,
       "drug_name": "simvastatin20 mg+ ezitimibe 10mg",
       "concentration": "10mg+20mg",
       "drug_form": "Tab",
@@ -4057,7 +3745,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 313,
       "drug_name": "simvastatin40 mg+ ezitimibe 10mg",
       "concentration": "10mg+40mg",
       "drug_form": "Tab",
@@ -4070,7 +3757,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 314,
       "drug_name": "Ezetimibe 10 mg + atrovastatin 10 mg",
       "concentration": "10mg+10mg",
       "drug_form": "Tab",
@@ -4083,7 +3769,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 315,
       "drug_name": "Ezetimibe 10 mg + atrovastatin 20 mg",
       "concentration": "10mg+20mg",
       "drug_form": "Tab",
@@ -4096,7 +3781,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 316,
       "drug_name": "Ezetimibe 10 mg + atrovastatin 40 mg",
       "concentration": "10mg+40mg",
       "drug_form": "Tab",
@@ -4109,7 +3793,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 317,
       "drug_name": "Pentoxifylline",
       "concentration": "400 mg",
       "drug_form": "Tab",
@@ -4122,7 +3805,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 318,
       "drug_name": "Meclofenoxate hydrochloride 500 mg",
       "concentration": "500 mg",
       "drug_form": "Tab",
@@ -4135,7 +3817,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 319,
       "drug_name": "Cinnarizine",
       "concentration": "25 mg",
       "drug_form": "Tab",
@@ -4148,7 +3829,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 320,
       "drug_name": "Betahistine",
       "concentration": "8mg-16mg",
       "drug_form": "Tab",
@@ -4161,7 +3841,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 321,
       "drug_name": "Cinnarizine+diminhydramin 40 mg",
       "concentration": "40 mg",
       "drug_form": "Tab",
@@ -4174,7 +3853,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 322,
       "drug_name": "Diosmin 450mg + Hespiridin 50mg",
       "concentration": "450mg + 50mg",
       "drug_form": "Tab",
@@ -4187,7 +3865,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 323,
       "drug_name": "Piracetam",
       "concentration": "400 mg",
       "drug_form": "Cap",
@@ -4200,7 +3877,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 324,
       "drug_name": "Piracetam",
       "concentration": "800 mg",
       "drug_form": "Cap",
@@ -4213,7 +3889,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 325,
       "drug_name": "Vincamine",
       "concentration": "30mg",
       "drug_form": "Cap",
@@ -4226,7 +3901,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 326,
       "drug_name": "Naftidrofuryl acid oxalate",
       "concentration": "200mg",
       "drug_form": "tab",
@@ -4239,7 +3913,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 327,
       "drug_name": "Nicorandil",
       "concentration": "10mg",
       "drug_form": "tab",
@@ -4252,7 +3925,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 328,
       "drug_name": "Nicorandil",
       "concentration": "20mg",
       "drug_form": "tab",
@@ -4265,7 +3937,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 329,
       "drug_name": "valsartan + sacubitril (entresto 100mg)",
       "concentration": "51/49mg",
       "drug_form": "tab",
@@ -4278,7 +3949,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 330,
       "drug_name": "valsartan + sacubitril (entresto 200mg)",
       "concentration": "97/103mg",
       "drug_form": "tab",
@@ -4291,7 +3961,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 331,
       "drug_name": "valsartan + sacubitril (entresto 50mg)",
       "concentration": "26/24mg",
       "drug_form": "tab",
@@ -4304,7 +3973,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 327,
       "drug_name": "Hydrochlorothiazide",
       "concentration": "25 mg",
       "drug_form": "Tab",
@@ -4317,7 +3985,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 328,
       "drug_name": "Furosemide",
       "concentration": "40 mg",
       "drug_form": "Tab",
@@ -4330,7 +3997,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 329,
       "drug_name": "Bumetanide",
       "concentration": "1mg",
       "drug_form": "Tab",
@@ -4343,7 +4009,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 330,
       "drug_name": "Spironolactone",
       "concentration": "25 mg",
       "drug_form": "Tab",
@@ -4356,7 +4021,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 331,
       "drug_name": "Spironolactone",
       "concentration": "100 mg",
       "drug_form": "Tab",
@@ -4369,7 +4033,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 332,
       "drug_name": "Furosemide 20 + spironolactone 50 mg",
       "concentration": "20 mg+50 mg",
       "drug_form": "Tab",
@@ -4382,7 +4045,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 333,
       "drug_name": "Amiloride + hydrochlorothiazide",
       "concentration": "5 mg+50 mg",
       "drug_form": "Tab",
@@ -4395,7 +4057,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 334,
       "drug_name": "Xipamide+triamterene",
       "concentration": null,
       "drug_form": "Tab",
@@ -4408,7 +4069,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 335,
       "drug_name": "Torsemide",
       "concentration": "20mg",
       "drug_form": "tab",
@@ -4421,7 +4081,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 336,
       "drug_name": "Warfarin",
       "concentration": "1 mg",
       "drug_form": "Tab",
@@ -4434,7 +4093,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 337,
       "drug_name": "Warfarin",
       "concentration": "2 mg",
       "drug_form": "Tab",
@@ -4447,7 +4105,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 338,
       "drug_name": "Warfarin",
       "concentration": "3 mg",
       "drug_form": "Tab",
@@ -4460,7 +4117,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 339,
       "drug_name": "Warfarin",
       "concentration": "5 mg",
       "drug_form": "Tab",
@@ -4473,7 +4129,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 340,
       "drug_name": "Low molecular weight heparin (protocol)",
       "concentration": "20mg,40mg,60mg,80mg",
       "drug_form": "Amp",
@@ -4486,7 +4141,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 341,
       "drug_name": "Rivaroxaban 2.5 mg",
       "concentration": "2.5mg",
       "drug_form": "Tab",
@@ -4499,7 +4153,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 342,
       "drug_name": "Rivaroxaban 10 mg",
       "concentration": "10 mg",
       "drug_form": "Tab",
@@ -4512,7 +4165,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 343,
       "drug_name": "Rivaroxaban 20 mg",
       "concentration": "20 mg",
       "drug_form": "Tab",
@@ -4525,7 +4177,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 344,
       "drug_name": "Rivaroxaban 15 mg",
       "concentration": "15 mg",
       "drug_form": "tab",
@@ -4538,7 +4189,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 345,
       "drug_name": "Apixaban",
       "concentration": "2.5mg",
       "drug_form": "Tab",
@@ -4551,7 +4201,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 346,
       "drug_name": "Apixaban",
       "concentration": "5mg",
       "drug_form": "Tab",
@@ -4564,7 +4213,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 347,
       "drug_name": "Cilostazole",
       "concentration": "50mg",
       "drug_form": "Tab",
@@ -4577,7 +4225,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 348,
       "drug_name": "Cilostazole",
       "concentration": "100mg",
       "drug_form": "Tab",
@@ -4590,7 +4237,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 358,
       "drug_name": "Ethamsylate",
       "concentration": "250 mg",
       "drug_form": "Tab",
@@ -4603,7 +4249,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 359,
       "drug_name": "Ethamsylate",
       "concentration": "250 mg/2 ml",
       "drug_form": "Amp",
@@ -4616,7 +4261,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 360,
       "drug_name": "Phytomenadione",
       "concentration": null,
       "drug_form": "Tab",
@@ -4629,7 +4273,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 361,
       "drug_name": "Phytomenadione (vit k 1)",
       "concentration": "2 mg",
       "drug_form": "Amp",
@@ -4642,7 +4285,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 362,
       "drug_name": "Phytominadione (vit k 1)",
       "concentration": "10 mg",
       "drug_form": "Amp",
@@ -4655,7 +4297,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 363,
       "drug_name": "Methyl-Ergometrine maleate",
       "concentration": "0.125 mg",
       "drug_form": "Tab",
@@ -4668,7 +4309,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 364,
       "drug_name": "Methyl-Ergometrine maleate",
       "concentration": "0. 5 mg",
       "drug_form": "Amp",
@@ -4681,7 +4321,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 365,
       "drug_name": "Tranexamic acid",
       "concentration": "500mg",
       "drug_form": "tab",
@@ -4694,7 +4333,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 366,
       "drug_name": "Glibenclamide",
       "concentration": "5 mg",
       "drug_form": "Tab",
@@ -4707,7 +4345,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 367,
       "drug_name": "Glibenclamide 5 mg + metformin 500 mg",
       "concentration": "5 mg+500 mg",
       "drug_form": "Tab",
@@ -4720,7 +4357,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 368,
       "drug_name": "Glibenclamide 5 mg + metformin 1000 mg",
       "concentration": "5mg+1000mg",
       "drug_form": "Tab",
@@ -4733,7 +4369,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 369,
       "drug_name": "Gliclazide",
       "concentration": "80 mg",
       "drug_form": "Tab",
@@ -4746,7 +4381,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 370,
       "drug_name": "Gliclazide MR",
       "concentration": "30 mg",
       "drug_form": "Tab",
@@ -4759,7 +4393,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 371,
       "drug_name": "Gliclazide",
       "concentration": "60 mg",
       "drug_form": "Tab",
@@ -4772,7 +4405,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 372,
       "drug_name": "Glimepiride",
       "concentration": "1 mg",
       "drug_form": "Tab",
@@ -4785,7 +4417,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 373,
       "drug_name": "Glimepiride",
       "concentration": "2 mg",
       "drug_form": "Tab",
@@ -4798,7 +4429,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 374,
       "drug_name": "Glimepiride",
       "concentration": "3 mg",
       "drug_form": "Tab",
@@ -4811,7 +4441,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 375,
       "drug_name": "Glimepiride",
       "concentration": "4 mg",
       "drug_form": "Tab",
@@ -4824,7 +4453,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 376,
       "drug_name": "Glimepiride 2mg +metformin 500 mg Tablet",
       "concentration": "2mg/500 mg",
       "drug_form": "Tab",
@@ -4837,7 +4465,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 377,
       "drug_name": "Glipizide",
       "concentration": "5 mg",
       "drug_form": "Tab",
@@ -4850,7 +4477,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 378,
       "drug_name": "dapagliflozin",
       "concentration": "5mg",
       "drug_form": "Tab",
@@ -4863,7 +4489,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 379,
       "drug_name": "dapagliflozin 5mg + metformin 1000mg",
       "concentration": "5mg + 1000mg",
       "drug_form": "Tab",
@@ -4876,7 +4501,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 380,
       "drug_name": "dapagliflozin 10mg + metformin 1000mg XR",
       "concentration": "5mg + 1000mg",
       "drug_form": "Tab",
@@ -4889,7 +4513,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 381,
       "drug_name": "empagliflozin",
       "concentration": "5 mg",
       "drug_form": "Tab",
@@ -4902,7 +4525,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 382,
       "drug_name": "empagliflozin",
       "concentration": "10 mg",
       "drug_form": "Tab",
@@ -4915,7 +4537,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 383,
       "drug_name": "empagliflozin",
       "concentration": "25 mg",
       "drug_form": "Tab",
@@ -4928,7 +4549,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 384,
       "drug_name": "empagliflozin 5 mg + metformin 1000mg",
       "concentration": "5mg + 1000mg",
       "drug_form": "Tab",
@@ -4941,7 +4561,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 385,
       "drug_name": "empagliflozin 12.5 mg + metformin 1000mg",
       "concentration": "5mg + 1000mg",
       "drug_form": "Tab",
@@ -4954,7 +4573,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 386,
       "drug_name": "empagliflozin 25 mg + metformin 1000XRmg",
       "concentration": "5mg + 1000mg",
       "drug_form": "Tab",
@@ -4967,7 +4585,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 387,
       "drug_name": "Gliptins",
       "concentration": null,
       "drug_form": "Tab",
@@ -4980,7 +4597,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 388,
       "drug_name": "sitagliptin",
       "concentration": "100 mg",
       "drug_form": "Tab",
@@ -4993,7 +4609,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 389,
       "drug_name": "sitagliptin 50 mg+ metformin 500 mg",
       "concentration": "50MG+500MG",
       "drug_form": "Tab",
@@ -5006,7 +4621,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 390,
       "drug_name": "sitagliptin 50 mg+ metformin 1000 mg",
       "concentration": "50 MG+1000MG",
       "drug_form": "Tab",
@@ -5019,7 +4633,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 391,
       "drug_name": "vildagliptin 50 mg",
       "concentration": "50 mg",
       "drug_form": "Tab",
@@ -5032,7 +4645,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 392,
       "drug_name": "vildagliptin 50 mg+ metformin 850 mg",
       "concentration": "50mg/850mg",
       "drug_form": "Tab",
@@ -5045,7 +4657,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 393,
       "drug_name": "vildagliptin 50 mg+ metformin 1000 mg",
       "concentration": "50mg/1000mg",
       "drug_form": "Tab",
@@ -5058,7 +4669,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 394,
       "drug_name": "Gliptins + metformin",
       "concentration": "850mg",
       "drug_form": "Tab",
@@ -5071,7 +4681,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 395,
       "drug_name": "Gliptins + metformin",
       "concentration": "1000mg",
       "drug_form": "Tab",
@@ -5084,7 +4693,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 396,
       "drug_name": "Metformin",
       "concentration": "500 mg",
       "drug_form": "Tab",
@@ -5097,7 +4705,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 397,
       "drug_name": "Metformin",
       "concentration": "850 mg",
       "drug_form": "Tab",
@@ -5110,7 +4717,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 398,
       "drug_name": "Metformin",
       "concentration": "1000mg",
       "drug_form": "Tab",
@@ -5123,7 +4729,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 399,
       "drug_name": "Insulin (human) Neutral",
       "concentration": "100 I.U.",
       "drug_form": "Vial",
@@ -5136,7 +4741,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 400,
       "drug_name": "Insulin (human) Mixtard",
       "concentration": "100 I.U.",
       "drug_form": "Vial",
@@ -5149,7 +4753,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 401,
       "drug_name": "Insulin (human) Retard",
       "concentration": "100 I.U.",
       "drug_form": "Vial",
@@ -5162,7 +4765,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 402,
       "drug_name": "Insulin (human) Neutral (school student)",
       "concentration": "100 I.U.",
       "drug_form": "Penfil cartridge",
@@ -5175,7 +4777,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 403,
       "drug_name": "Insulin (human) Mixtard (school student)",
       "concentration": "100 I.U",
       "drug_form": "Penfil cartridge",
@@ -5188,7 +4789,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 404,
       "drug_name": "Insulin (human) Retard (school student)",
       "concentration": "100 I.U",
       "drug_form": "Penfil cartridge",
@@ -5201,7 +4801,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 405,
       "drug_name": "Insulin lispro (humalog) student",
       "concentration": "100 I.U",
       "drug_form": "Penfil cartridge",
@@ -5214,7 +4813,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 406,
       "drug_name": "Humulin 70/30 student",
       "concentration": "100 I.U",
       "drug_form": "Penfil cartridge",
@@ -5227,7 +4825,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 407,
       "drug_name": "Humulin N student",
       "concentration": "100 I.U",
       "drug_form": "Penfil cartridge",
@@ -5240,7 +4837,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 408,
       "drug_name": "Humulin R student",
       "concentration": "100 I.U",
       "drug_form": "Penfil cartridge",
@@ -5253,7 +4849,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 407,
       "drug_name": "Chorionic Gonadotropin",
       "concentration": "5000 I.U",
       "drug_form": "Amp",
@@ -5266,7 +4861,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 408,
       "drug_name": "Chorionic Gonadotropin",
       "concentration": "1500 I.U",
       "drug_form": "Amp",
@@ -5279,7 +4873,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 409,
       "drug_name": "Testosteron Enanthate",
       "concentration": "250 mg",
       "drug_form": "Amp",
@@ -5292,7 +4885,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 410,
       "drug_name": "Testosteron Enanthate +Testosterone Propionate",
       "concentration": "110 mg+ 250 mg",
       "drug_form": "Amp",
@@ -5305,7 +4897,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 411,
       "drug_name": "Tetracosactrin acetate",
       "concentration": "1 mg /ml",
       "drug_form": "Amp",
@@ -5318,7 +4909,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 412,
       "drug_name": "Norethisterone acetate",
       "concentration": "5 mg /ml",
       "drug_form": "Tab",
@@ -5331,7 +4921,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 413,
       "drug_name": "Bromocriptine mesylate",
       "concentration": "2.5 mg",
       "drug_form": "Tab",
@@ -5344,7 +4933,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 414,
       "drug_name": "Clomiphene Tab",
       "concentration": "50 mg",
       "drug_form": "Tab",
@@ -5357,7 +4945,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 415,
       "drug_name": "Hydroxyprogesterone + Estradiol",
       "concentration": null,
       "drug_form": "Amp",
@@ -5370,7 +4957,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 416,
       "drug_name": "Oestriol",
       "concentration": null,
       "drug_form": "Tab",
@@ -5383,7 +4969,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 417,
       "drug_name": "Danazol",
       "concentration": "200 mg",
       "drug_form": "Tab",
@@ -5396,7 +4981,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 418,
       "drug_name": "Progesterone",
       "concentration": "100 mg",
       "drug_form": "Cap",
@@ -5409,7 +4993,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 419,
       "drug_name": "Progesterone",
       "concentration": "250 mg",
       "drug_form": "Amp",
@@ -5422,7 +5005,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 420,
       "drug_name": "Desmopressin Spray (protocol)",
       "concentration": "10mcg/dose",
       "drug_form": "Nasal Spray",
@@ -5435,7 +5017,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 421,
       "drug_name": "Desmopressin (protocol)",
       "concentration": "60 -120 mcg",
       "drug_form": "Tab",
@@ -5448,7 +5029,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 422,
       "drug_name": "Norgestrel +Oestradiol",
       "concentration": null,
       "drug_form": "Tab",
@@ -5461,7 +5041,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 423,
       "drug_name": "9- Fluorohydrocortisone",
       "concentration": null,
       "drug_form": "Tab",
@@ -5474,7 +5053,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 424,
       "drug_name": "Conjugated Estrogen",
       "concentration": null,
       "drug_form": "Tab",
@@ -5487,7 +5065,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 425,
       "drug_name": "Luteinising Hormone Releasing Analogue (LHRH)",
       "concentration": null,
       "drug_form": "pref. Syring",
@@ -5500,7 +5077,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 426,
       "drug_name": "Hydrocortisone",
       "concentration": null,
       "drug_form": "Tab",
@@ -5513,7 +5089,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 427,
       "drug_name": "Levo -Thyroxin Na",
       "concentration": "25 mcg",
       "drug_form": "Cap or Tab",
@@ -5526,7 +5101,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 428,
       "drug_name": "Levo -Thyroxin Na",
       "concentration": "50 mcg",
       "drug_form": "Tab",
@@ -5539,7 +5113,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 429,
       "drug_name": "Levo-Thyroxin Na",
       "concentration": "100 mcg",
       "drug_form": "Tab",
@@ -5552,7 +5125,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 430,
       "drug_name": "Carbimazole",
       "concentration": "5 mg",
       "drug_form": "Tab",
@@ -5565,7 +5137,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 431,
       "drug_name": "Propyl thiouracil",
       "concentration": "10 mg",
       "drug_form": "Tab",
@@ -5578,7 +5149,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 432,
       "drug_name": "Dydrogesterone",
       "concentration": "10 mg",
       "drug_form": "Tab",
@@ -5591,7 +5161,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 433,
       "drug_name": "Chlorpheniramine Maleate",
       "concentration": "4 mg",
       "drug_form": "Tab",
@@ -5604,7 +5173,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 434,
       "drug_name": "Chlorpheniramine Maleate",
       "concentration": "0.02",
       "drug_form": "Cream",
@@ -5617,7 +5185,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 435,
       "drug_name": "Chlorpheniramine Maleate",
       "concentration": "0.02",
       "drug_form": "Oint",
@@ -5630,7 +5197,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 436,
       "drug_name": "Chlorpheniramine Maleate",
       "concentration": "5 mg /ml",
       "drug_form": "Amp",
@@ -5643,7 +5209,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 437,
       "drug_name": "Ketotifen",
       "concentration": "1 mg",
       "drug_form": "Tab",
@@ -5656,7 +5221,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 438,
       "drug_name": "Ketotifen ( student )",
       "concentration": "5 mg / 5 ml",
       "drug_form": "Syrup",
@@ -5669,7 +5233,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 439,
       "drug_name": "Cetirizine",
       "concentration": null,
       "drug_form": "Tab",
@@ -5682,7 +5245,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 440,
       "drug_name": "Hydrocortisone sodium succinate",
       "concentration": "100 mg",
       "drug_form": "Vial",
@@ -5695,7 +5257,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 441,
       "drug_name": "Hydrocortisone 10 mg tab",
       "concentration": "10 mg",
       "drug_form": "tab",
@@ -5708,7 +5269,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 442,
       "drug_name": "Prednisolone",
       "concentration": "5 mg",
       "drug_form": "Tab",
@@ -5721,7 +5281,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 443,
       "drug_name": "Prednisolone",
       "concentration": "20 mg",
       "drug_form": "Tab",
@@ -5734,7 +5293,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 444,
       "drug_name": "Triamcinolone Acetate",
       "concentration": "40 mg",
       "drug_form": "Vial",
@@ -5747,7 +5305,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 445,
       "drug_name": "Triamcinolone Acetate",
       "concentration": "4 mg",
       "drug_form": "Tab",
@@ -5760,7 +5317,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 446,
       "drug_name": "Fexofenadine",
       "concentration": "120 mg",
       "drug_form": "Tab",
@@ -5773,7 +5329,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 447,
       "drug_name": "Fexofenadine",
       "concentration": "180 mg",
       "drug_form": "Cap or Tab",
@@ -5786,7 +5341,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 448,
       "drug_name": "Dexamethasone Na phosphate",
       "concentration": "4mg / ml",
       "drug_form": "Amp",
@@ -5799,7 +5353,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 449,
       "drug_name": "Dexamethasone",
       "concentration": "0.5 mg",
       "drug_form": "Tab",
@@ -5812,7 +5365,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 450,
       "drug_name": "Dexamethasone",
       "concentration": "8mg",
       "drug_form": "Tab",
@@ -5825,7 +5377,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 451,
       "drug_name": "Betamethasone",
       "concentration": null,
       "drug_form": "Amp",
@@ -5838,7 +5389,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 452,
       "drug_name": "Desloratidine",
       "concentration": "5mg",
       "drug_form": "Tab",
@@ -5851,7 +5401,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 453,
       "drug_name": "Desloratidine",
       "concentration": "0.5mg/ml",
       "drug_form": "syp",
@@ -5864,7 +5413,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 454,
       "drug_name": "acetylcysteine sach",
       "concentration": "600 mg",
       "drug_form": "sach",
@@ -5877,7 +5425,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 455,
       "drug_name": "Couph sedative contain Dextromethorphan",
       "concentration": "10 mg / 5 ml",
       "drug_form": "Syrup",
@@ -5890,7 +5437,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 456,
       "drug_name": "Couph sedative contain Dextromethorphan",
       "concentration": "10 mg",
       "drug_form": "Tab",
@@ -5903,7 +5449,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 457,
       "drug_name": "Expectorant (Guaiphenesin+Bronchodialator)",
       "concentration": null,
       "drug_form": "Syrup",
@@ -5916,7 +5461,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 458,
       "drug_name": "Bromhexine or Ambroxol ( Mucolytic)",
       "concentration": null,
       "drug_form": "Syrup",
@@ -5929,7 +5473,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 459,
       "drug_name": "Bromhexine or Ambroxol",
       "concentration": null,
       "drug_form": "Tab",
@@ -5942,7 +5485,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 460,
       "drug_name": "Salbutamol",
       "concentration": "2mg / 5ml",
       "drug_form": "Syrup",
@@ -5955,7 +5497,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 461,
       "drug_name": "Salbutamol",
       "concentration": "2 mg",
       "drug_form": "Tab",
@@ -5968,7 +5509,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 462,
       "drug_name": "Salbutamol",
       "concentration": "4 mg CR",
       "drug_form": "Tab",
@@ -5981,7 +5521,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 463,
       "drug_name": "Theophylline Anhydrous Ret",
       "concentration": "300 mg",
       "drug_form": "Tab",
@@ -5994,7 +5533,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 464,
       "drug_name": "Theophylline Monohydrate",
       "concentration": "400 mg",
       "drug_form": "Tab",
@@ -6007,7 +5545,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 465,
       "drug_name": "Acefylline or Theophylline + Guaiphenesin",
       "concentration": "2.5 mg",
       "drug_form": "Syrup",
@@ -6020,7 +5557,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 466,
       "drug_name": "Terbutaline Sulphate",
       "concentration": "2.5 mg",
       "drug_form": "Tab",
@@ -6033,7 +5569,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 467,
       "drug_name": "Terbutaline Sulphate",
       "concentration": null,
       "drug_form": "syrup",
@@ -6046,7 +5581,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 468,
       "drug_name": "Salbutamol + Beclomethasone",
       "concentration": null,
       "drug_form": "Inh",
@@ -6059,7 +5593,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 469,
       "drug_name": "Salbutamol inhaler",
       "concentration": "200 Dose",
       "drug_form": "Inh",
@@ -6072,7 +5605,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 470,
       "drug_name": "Beclomethasone 50 mcg",
       "concentration": "50 mcg",
       "drug_form": "Inh",
@@ -6085,7 +5617,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 471,
       "drug_name": "beclomethasone 100 mcg",
       "concentration": "100mcg",
       "drug_form": "spray",
@@ -6098,7 +5629,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 472,
       "drug_name": "Formoterol 12 mcg for inhalation powder",
       "concentration": "12 mcg",
       "drug_form": "inhaler",
@@ -6111,7 +5641,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 472,
       "drug_name": "budesonide inhaler powder in cap",
       "concentration": "400mcg",
       "drug_form": "inhaler",
@@ -6124,7 +5653,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 473,
       "drug_name": "salmetrol 25mcg",
       "concentration": "25mcg",
       "drug_form": "inhaler",
@@ -6137,7 +5665,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 474,
       "drug_name": "Salmeterol 25mcg + fluticasone 125 mcg evohaler",
       "concentration": "125mcg",
       "drug_form": "inhaler",
@@ -6150,7 +5677,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 475,
       "drug_name": "Salmeterol 50mcg + fluticasone 250 mcg diskus",
       "concentration": "250mcg",
       "drug_form": "diskus",
@@ -6163,7 +5689,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 476,
       "drug_name": "Salmeterol 25mcg + fluticasone 500 mcg diskus",
       "concentration": "500mcg",
       "drug_form": "diskus",
@@ -6176,7 +5701,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 477,
       "drug_name": "Carbocysteine",
       "concentration": "375 mg",
       "drug_form": "Tab",
@@ -6189,7 +5713,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 478,
       "drug_name": "Carbocysteine",
       "concentration": "250 mg / 5 ml",
       "drug_form": "Syrup",
@@ -6202,7 +5725,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 479,
       "drug_name": "montelukast",
       "concentration": "10mg - 5mg",
       "drug_form": "tab",
@@ -6215,7 +5737,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 480,
       "drug_name": "montelukast",
       "concentration": "4mg",
       "drug_form": "sach",
@@ -6228,7 +5749,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 481,
       "drug_name": "Ipratrpium. + salbutamol",
       "concentration": null,
       "drug_form": "inhalation",
@@ -6241,7 +5761,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 482,
       "drug_name": "Ipratrpium.0.2mg + salbutamol 0.12 mg",
       "concentration": null,
       "drug_form": "Tab",
@@ -6254,7 +5773,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 483,
       "drug_name": "Fluticosone 50mcg + salmetrol 25mcg",
       "concentration": null,
       "drug_form": "inh",
@@ -6267,7 +5785,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 484,
       "drug_name": "Budesonide 160mcg + formetrol 4.5mcg",
       "concentration": null,
       "drug_form": "inh",
@@ -6280,7 +5797,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 485,
       "drug_name": "Tetracycline",
       "concentration": "0.03",
       "drug_form": "Oint",
@@ -6293,7 +5809,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 486,
       "drug_name": "Clotrimazole",
       "concentration": "0.01",
       "drug_form": "Cream",
@@ -6306,7 +5821,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 487,
       "drug_name": "Clotrimazole",
       "concentration": "0.01",
       "drug_form": "Solu",
@@ -6319,7 +5833,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 488,
       "drug_name": "Silver sulfadiazine",
       "concentration": "0.01",
       "drug_form": "Cream",
@@ -6332,7 +5845,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 489,
       "drug_name": "Betamethasone",
       "concentration": "0.001",
       "drug_form": "Cream",
@@ -6345,7 +5857,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 490,
       "drug_name": "Tetracycline 3%+ polymyxin 10.000 Units",
       "concentration": "3%+10.000 U",
       "drug_form": "Oint",
@@ -6358,7 +5869,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 491,
       "drug_name": "Clobetasol",
       "concentration": null,
       "drug_form": "Cream",
@@ -6371,7 +5881,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 492,
       "drug_name": "Diflucortolone",
       "concentration": "0.001",
       "drug_form": "Oint",
@@ -6384,7 +5893,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 493,
       "drug_name": "Hydrocortisone",
       "concentration": "0.01",
       "drug_form": "Oint",
@@ -6397,7 +5905,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 494,
       "drug_name": "Hydrocortisone",
       "concentration": "0.01",
       "drug_form": "Cream",
@@ -6410,7 +5917,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 495,
       "drug_name": "Hydrocortisone + Tetracycline",
       "concentration": "1%+3%",
       "drug_form": "Oint",
@@ -6423,7 +5929,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 496,
       "drug_name": "Benzyl Benzoate",
       "concentration": "0.25",
       "drug_form": "Lotion",
@@ -6436,7 +5941,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 497,
       "drug_name": "Benzyl Benzoate",
       "concentration": "0.1",
       "drug_form": "Cream",
@@ -6449,7 +5953,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 498,
       "drug_name": "Ivermectin",
       "concentration": "6 mg",
       "drug_form": "Tab",
@@ -6462,7 +5965,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 499,
       "drug_name": "Isoconazol Nitrate",
       "concentration": "0.01",
       "drug_form": "Cream",
@@ -6475,7 +5977,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 500,
       "drug_name": "Hydrocortisone +Antifungal",
       "concentration": "1%+1%",
       "drug_form": "Cream",
@@ -6488,7 +5989,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 501,
       "drug_name": "Methoxsalen",
       "concentration": "10 mg",
       "drug_form": "Cap",
@@ -6501,7 +6001,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 502,
       "drug_name": "Methoxsalen",
       "concentration": null,
       "drug_form": "Paint",
@@ -6514,7 +6013,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 503,
       "drug_name": "Gentamycin",
       "concentration": "0.001",
       "drug_form": "Cream",
@@ -6527,7 +6025,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 504,
       "drug_name": "Gentamycin",
       "concentration": "0.001",
       "drug_form": "Oint",
@@ -6540,7 +6037,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 505,
       "drug_name": "Anticoagulant",
       "concentration": null,
       "drug_form": "Gel",
@@ -6553,7 +6049,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 506,
       "drug_name": "Medicate Tulle with Antibiotics",
       "concentration": null,
       "drug_form": "Tulle",
@@ -6566,7 +6061,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 507,
       "drug_name": "Povidon iodine",
       "concentration": "0.1",
       "drug_form": "Vag. Douche",
@@ -6579,7 +6073,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 508,
       "drug_name": "Salicylic Acid+Flumethasone",
       "concentration": null,
       "drug_form": "Oint",
@@ -6592,7 +6085,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 509,
       "drug_name": "Azole derivatives",
       "concentration": null,
       "drug_form": "Lotion",
@@ -6605,7 +6097,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 510,
       "drug_name": "Azole derivatives",
       "concentration": null,
       "drug_form": "Powder",
@@ -6618,7 +6109,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 511,
       "drug_name": "Azole derivatives",
       "concentration": null,
       "drug_form": "Cream",
@@ -6631,7 +6121,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 512,
       "drug_name": "Azelaic acid",
       "concentration": "0.2",
       "drug_form": "Cream",
@@ -6644,7 +6133,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 513,
       "drug_name": "Calamine + antihistamine",
       "concentration": null,
       "drug_form": "Lotion",
@@ -6657,7 +6145,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 514,
       "drug_name": "Gramicidin+Neomycin+Nystatin+Triamcinolone",
       "concentration": null,
       "drug_form": "Cream",
@@ -6670,7 +6157,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 515,
       "drug_name": "Betamethasone + Clioquinol",
       "concentration": null,
       "drug_form": "Cream",
@@ -6683,7 +6169,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 516,
       "drug_name": "Diflucortolone+Chlorquinaldol",
       "concentration": null,
       "drug_form": "Cream",
@@ -6696,7 +6181,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 517,
       "drug_name": "Betamethasone+salicylic acid",
       "concentration": null,
       "drug_form": "Oint",
@@ -6709,7 +6193,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 518,
       "drug_name": "Betamethasone+salicylic acid",
       "concentration": "0.05%+3%",
       "drug_form": "Lotion",
@@ -6722,7 +6205,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 519,
       "drug_name": "Coal tar +…… +……",
       "concentration": null,
       "drug_form": "Oint",
@@ -6735,7 +6217,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 520,
       "drug_name": "Selenium sulphide",
       "concentration": null,
       "drug_form": "Lotion",
@@ -6748,7 +6229,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 521,
       "drug_name": "Chamomile extract",
       "concentration": null,
       "drug_form": "Oint",
@@ -6761,7 +6241,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 522,
       "drug_name": "Povidone iodine",
       "concentration": "0.075",
       "drug_form": "Shampoo",
@@ -6774,7 +6253,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 523,
       "drug_name": "Povidone iodine",
       "concentration": "1.075",
       "drug_form": "Shampoo",
@@ -6787,7 +6265,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 524,
       "drug_name": "propolis,chamomile,Zn ox,honey",
       "concentration": "30gm",
       "drug_form": "cream",
@@ -6800,7 +6277,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 525,
       "drug_name": "Calcipotriol+betamthasone",
       "concentration": null,
       "drug_form": "oint",
@@ -6813,7 +6289,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 526,
       "drug_name": "B-sitosterol",
       "concentration": "0.0025",
       "drug_form": "oint",
@@ -6826,7 +6301,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 527,
       "drug_name": "tazarotene",
       "concentration": "0.001",
       "drug_form": "gel",
@@ -6839,7 +6313,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 528,
       "drug_name": "Anti-corn",
       "concentration": null,
       "drug_form": "Paint",
@@ -6852,7 +6325,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 529,
       "drug_name": "Chloramphenicol + collagenase",
       "concentration": null,
       "drug_form": "Oint",
@@ -6865,7 +6337,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 530,
       "drug_name": "Fucidic acid",
       "concentration": "0.02",
       "drug_form": "Cream",
@@ -6878,7 +6349,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 531,
       "drug_name": "Fucidic acid+Corticosteroid",
       "concentration": null,
       "drug_form": "Cream",
@@ -6891,7 +6361,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 532,
       "drug_name": "Retinoic acid",
       "concentration": "0.0005",
       "drug_form": "Cream",
@@ -6904,7 +6373,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 533,
       "drug_name": "Betamethasone+Gentamycine+ ……..",
       "concentration": null,
       "drug_form": "Oint",
@@ -6917,7 +6385,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 534,
       "drug_name": "Urea",
       "concentration": "0.1",
       "drug_form": "Cream",
@@ -6930,7 +6397,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 535,
       "drug_name": "Iodochlor hydroxyquin + Hydrocortisone",
       "concentration": null,
       "drug_form": "Cream",
@@ -6943,7 +6409,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 536,
       "drug_name": "Dexamethasone + Panthenol",
       "concentration": "0.05",
       "drug_form": "Cream",
@@ -6956,7 +6421,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 537,
       "drug_name": "Chloramphenicol",
       "concentration": "0.01",
       "drug_form": "Oint",
@@ -6969,7 +6433,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 538,
       "drug_name": "Gammabenzen hexachloride",
       "concentration": "0.003",
       "drug_form": "Cream",
@@ -6982,7 +6445,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 539,
       "drug_name": "Panthenol emulgel",
       "concentration": "0.05",
       "drug_form": "gel",
@@ -6995,7 +6457,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 540,
       "drug_name": "Terbinafine",
       "concentration": "0.01",
       "drug_form": "Cream",
@@ -7008,7 +6469,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 541,
       "drug_name": "Mometasone",
       "concentration": "100 mg",
       "drug_form": "Cream",
@@ -7021,7 +6481,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 542,
       "drug_name": "Mometasone",
       "concentration": "100 mg",
       "drug_form": "Oint",
@@ -7034,7 +6493,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 543,
       "drug_name": "Acyclovir",
       "concentration": "0.05",
       "drug_form": "Cream",
@@ -7047,7 +6505,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 544,
       "drug_name": "Miconazole Vag",
       "concentration": "0.02",
       "drug_form": "Cream",
@@ -7060,7 +6517,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 545,
       "drug_name": "Isoconazole",
       "concentration": "600mg",
       "drug_form": "vag.ovules",
@@ -7073,7 +6529,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 546,
       "drug_name": "Chloramphenicol",
       "concentration": "0.005",
       "drug_form": "E.D",
@@ -7086,7 +6541,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 547,
       "drug_name": "Chloramphenicol",
       "concentration": "0.01",
       "drug_form": "E.O",
@@ -7099,7 +6553,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 548,
       "drug_name": "Gentamicin",
       "concentration": "5 ml",
       "drug_form": "E.D",
@@ -7112,7 +6565,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 549,
       "drug_name": "Gentamicin",
       "concentration": "0.003",
       "drug_form": "E.O",
@@ -7125,7 +6577,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 550,
       "drug_name": "Tetracycline 1%+polymyxin",
       "concentration": "0.01",
       "drug_form": "E.O",
@@ -7138,7 +6589,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 551,
       "drug_name": "Ciprofloxacin",
       "concentration": "0.003",
       "drug_form": "E.D",
@@ -7151,7 +6601,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 552,
       "drug_name": "Sulphacetamide Na",
       "concentration": "0.1",
       "drug_form": "E.D",
@@ -7164,7 +6613,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 553,
       "drug_name": "dexamethasone+tobramycin eye oint",
       "concentration": null,
       "drug_form": "E.O",
@@ -7177,7 +6625,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 554,
       "drug_name": "dexamethasone+tobramycin eye drop",
       "concentration": null,
       "drug_form": "E.D",
@@ -7190,7 +6637,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 555,
       "drug_name": "Tobramycin eye drop",
       "concentration": null,
       "drug_form": "E.D",
@@ -7203,7 +6649,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 556,
       "drug_name": "Tobramycin eye oint",
       "concentration": null,
       "drug_form": "E.O",
@@ -7216,7 +6661,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 557,
       "drug_name": "Alcaftadine eye drop",
       "concentration": null,
       "drug_form": "E.D",
@@ -7229,7 +6673,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 558,
       "drug_name": "Tropicamide 1% eye drop",
       "concentration": null,
       "drug_form": "E.D",
@@ -7242,7 +6685,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 559,
       "drug_name": "Tropicamide 0.5% eye drop",
       "concentration": null,
       "drug_form": "E.D",
@@ -7255,7 +6697,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 560,
       "drug_name": "Antazoline hydrochloride+teryzoline hydrochloride eye drop",
       "concentration": null,
       "drug_form": "E.D",
@@ -7268,7 +6709,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 561,
       "drug_name": "diclofenac 0.1% eye drop",
       "concentration": null,
       "drug_form": "E.D",
@@ -7281,7 +6721,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 562,
       "drug_name": "Timolol 0.1%-Eye Gel tube 5mg",
       "concentration": null,
       "drug_form": "gel",
@@ -7294,7 +6733,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 563,
       "drug_name": "Hydroxy propyl methyl cellulose 0.3% eye drop",
       "concentration": null,
       "drug_form": "E.D",
@@ -7307,7 +6745,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 564,
       "drug_name": "moxifloxacin+dexamethasone eye drop",
       "concentration": null,
       "drug_form": "E.D",
@@ -7320,7 +6757,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 565,
       "drug_name": "Sulphacetamide Na",
       "concentration": "0.2",
       "drug_form": "E.D",
@@ -7333,7 +6769,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 566,
       "drug_name": "Acyclovir",
       "concentration": "0.03",
       "drug_form": "E.O",
@@ -7346,7 +6781,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 567,
       "drug_name": "Dexamethasone",
       "concentration": "0.001",
       "drug_form": "E.D",
@@ -7359,7 +6793,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 568,
       "drug_name": "Dexamethasone",
       "concentration": null,
       "drug_form": "E.O",
@@ -7372,7 +6805,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 569,
       "drug_name": "Non-steroidal Anti-inflammatory",
       "concentration": "0.001",
       "drug_form": "E.D",
@@ -7385,7 +6817,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 570,
       "drug_name": "Chloramphinicol+prednisolone Acetate",
       "concentration": null,
       "drug_form": "E.D",
@@ -7398,7 +6829,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 571,
       "drug_name": "Dexamethasone+Neomycine+polimyxin",
       "concentration": null,
       "drug_form": "E.D & E.O",
@@ -7411,7 +6841,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 572,
       "drug_name": "Oxytetracycline +Hydrocortisone",
       "concentration": null,
       "drug_form": "E.D",
@@ -7424,7 +6853,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 573,
       "drug_name": "Oxytetracycline +Hydrocortisone",
       "concentration": null,
       "drug_form": "E.O",
@@ -7437,7 +6865,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 574,
       "drug_name": "Timolol Maleate",
       "concentration": "0.0025",
       "drug_form": "E.D",
@@ -7450,7 +6877,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 575,
       "drug_name": "Timolol Maleate",
       "concentration": "0.005",
       "drug_form": "E.D",
@@ -7463,7 +6889,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 576,
       "drug_name": "Betaxolol (protocol)",
       "concentration": "0.005",
       "drug_form": "E.D",
@@ -7476,7 +6901,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 577,
       "drug_name": "Moxifloxacin",
       "concentration": null,
       "drug_form": "E.d",
@@ -7489,7 +6913,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 578,
       "drug_name": "Azithromycin",
       "concentration": "0.01",
       "drug_form": "E.d",
@@ -7502,7 +6925,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 579,
       "drug_name": "Gatifloxacin",
       "concentration": null,
       "drug_form": "E.d",
@@ -7515,7 +6937,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 580,
       "drug_name": "Prednisolone",
       "concentration": null,
       "drug_form": "E.d",
@@ -7528,7 +6949,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 581,
       "drug_name": "Travoprost + Timolol",
       "concentration": null,
       "drug_form": "E.d",
@@ -7541,7 +6961,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 582,
       "drug_name": "Tetrahydrozoline",
       "concentration": "0.0005",
       "drug_form": "E.D",
@@ -7554,7 +6973,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 583,
       "drug_name": "Tetrahydrozoline Hcl 0.05%+Zinc sulfate",
       "concentration": "0.0005",
       "drug_form": "E.D",
@@ -7567,7 +6985,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 584,
       "drug_name": "Cromoglycate",
       "concentration": "0.02",
       "drug_form": "E.D",
@@ -7580,7 +6997,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 585,
       "drug_name": "Chlorobutanol + Polyvinyl alcohol",
       "concentration": null,
       "drug_form": "E.D",
@@ -7593,7 +7009,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 586,
       "drug_name": "Polyvinylpyrrolidone",
       "concentration": "0.02",
       "drug_form": "E.D",
@@ -7606,7 +7021,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 587,
       "drug_name": "Prostaglandin analogue",
       "concentration": null,
       "drug_form": "E.D",
@@ -7619,7 +7033,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 588,
       "drug_name": "Dichlorphenamide",
       "concentration": "50 mg",
       "drug_form": "Tab",
@@ -7632,7 +7045,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 589,
       "drug_name": "Brimonidine 0.15",
       "concentration": null,
       "drug_form": "E.D",
@@ -7645,7 +7057,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 590,
       "drug_name": "Brimonidine tartrate",
       "concentration": null,
       "drug_form": "E.D",
@@ -7658,7 +7069,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 591,
       "drug_name": "Dorzolamide 2% EYE DROP",
       "concentration": null,
       "drug_form": "E.D",
@@ -7671,7 +7081,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 592,
       "drug_name": "Dorzolamide Hcl 2%+Timolol Maleate 0.5%",
       "concentration": "2%+0.5%",
       "drug_form": "E.D",
@@ -7684,7 +7093,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 593,
       "drug_name": "Carbonic Anhydrous Inhibitor",
       "concentration": "0.02",
       "drug_form": "E.D",
@@ -7697,7 +7105,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 594,
       "drug_name": "Pilocarpine",
       "concentration": "1%,2%,3%,4%",
       "drug_form": "E.D",
@@ -7710,7 +7117,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 595,
       "drug_name": "Atropin sulphate",
       "concentration": "0.01",
       "drug_form": "E.D",
@@ -7723,7 +7129,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 596,
       "drug_name": "Atropin sulphate",
       "concentration": "0.01",
       "drug_form": "E.O",
@@ -7736,7 +7141,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 597,
       "drug_name": "Cyclopentolate",
       "concentration": "0.01",
       "drug_form": "E.D",
@@ -7749,7 +7153,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 598,
       "drug_name": "phenylephrine HCL",
       "concentration": "0.025",
       "drug_form": "E.D",
@@ -7762,7 +7165,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 599,
       "drug_name": "Naphazolin HCL 0.5mg+chlorpheniramin maleate",
       "concentration": "0.5 mg",
       "drug_form": "E.D",
@@ -7775,7 +7177,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 600,
       "drug_name": "Naphazolin HCL+zinc sulphate +Methylene blue",
       "concentration": null,
       "drug_form": "E.D",
@@ -7788,7 +7189,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 601,
       "drug_name": "Acetazolamide",
       "concentration": "250 mg",
       "drug_form": "Tab",
@@ -7801,7 +7201,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 602,
       "drug_name": "(Nasal Decongestant)",
       "concentration": null,
       "drug_form": "N.D",
@@ -7814,7 +7213,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 603,
       "drug_name": "oxymetazoline drop for adult",
       "concentration": null,
       "drug_form": null,
@@ -7827,7 +7225,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 604,
       "drug_name": "xylometazoline hydrochloride drop adult,infant",
       "concentration": null,
       "drug_form": null,
@@ -7840,7 +7237,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 605,
       "drug_name": "Sodium chloride + Sod bicarbonate + borax nasal wash",
       "concentration": null,
       "drug_form": "powder",
@@ -7853,7 +7249,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 606,
       "drug_name": "Phenazone+chlorobutanol",
       "concentration": "5%+1%",
       "drug_form": "Ear.d",
@@ -7866,7 +7261,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 607,
       "drug_name": "Antibiotics + steroids",
       "concentration": null,
       "drug_form": "Ear.d",
@@ -7879,7 +7273,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 608,
       "drug_name": "Dimenhydrinate",
       "concentration": null,
       "drug_form": "Tab",
@@ -7892,7 +7285,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 609,
       "drug_name": "Wax Removal",
       "concentration": null,
       "drug_form": "Ear.d",
@@ -7905,7 +7297,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 610,
       "drug_name": "Chlorhexidine Gluconate",
       "concentration": null,
       "drug_form": "Mouth wash",
@@ -7918,7 +7309,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 611,
       "drug_name": "Benzydamine",
       "concentration": "0.0015",
       "drug_form": "Mouth wash",
@@ -7931,7 +7321,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 612,
       "drug_name": "Anthraquinone glycosides+Lidocaine+salicylic acid",
       "concentration": null,
       "drug_form": "Paint",
@@ -7944,7 +7333,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 613,
       "drug_name": "Lidocaine+Aminacrine",
       "concentration": null,
       "drug_form": "Gel",
@@ -7957,7 +7345,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 614,
       "drug_name": "povidone iodine",
       "concentration": null,
       "drug_form": "M.W",
@@ -7970,7 +7357,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 615,
       "drug_name": "Anti-Hemorrhoidal containing Hydrocortisone",
       "concentration": null,
       "drug_form": "Oint.",
@@ -7983,7 +7369,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 616,
       "drug_name": "Anti-Hemorrhoidal containing Hydrocortisone",
       "concentration": null,
       "drug_form": "Supp.",
@@ -7996,7 +7381,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 617,
       "drug_name": "Anti-Hemorrhoidal containing Lignocaine",
       "concentration": null,
       "drug_form": "Oint.",
@@ -8009,7 +7393,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 618,
       "drug_name": "Anti-Hemorrhoidal containing Lignocaine",
       "concentration": null,
       "drug_form": "Supp.",
@@ -8022,7 +7405,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 619,
       "drug_name": "Lidocaine",
       "concentration": "0.02",
       "drug_form": "Gel",
@@ -8035,7 +7417,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 620,
       "drug_name": "Lidocaine",
       "concentration": "0.05",
       "drug_form": "Cream",
@@ -8048,7 +7429,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 621,
       "drug_name": "Antacid containing AL-Mg compounds",
       "concentration": null,
       "drug_form": "Tab",
@@ -8061,7 +7441,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 622,
       "drug_name": "Antacid containing Al-Mg compounds",
       "concentration": null,
       "drug_form": "Syrup",
@@ -8074,7 +7453,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 623,
       "drug_name": "Antacid containing Alginate",
       "concentration": null,
       "drug_form": "Tab",
@@ -8087,7 +7465,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 624,
       "drug_name": "Sod alginate 5g+sod bicarb 2.5g",
       "concentration": "5g+2.5g",
       "drug_form": "susp",
@@ -8100,7 +7477,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 625,
       "drug_name": "Ranitidine (H2 blocker)",
       "concentration": "150 mg",
       "drug_form": "Tab",
@@ -8113,7 +7489,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 626,
       "drug_name": "Proton pump inhibitors",
       "concentration": "20 mg",
       "drug_form": "Cap",
@@ -8126,7 +7501,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 627,
       "drug_name": "Proton pump inhibitors",
       "concentration": "40 mg",
       "drug_form": "Cap",
@@ -8139,7 +7513,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 628,
       "drug_name": "Famotidine",
       "concentration": "20 mg",
       "drug_form": "Tab",
@@ -8152,7 +7525,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 629,
       "drug_name": "Famotidine",
       "concentration": "40 mg",
       "drug_form": "Tab",
@@ -8165,7 +7537,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 630,
       "drug_name": "Pantoprazole",
       "concentration": "20 mg",
       "drug_form": "Tab",
@@ -8178,7 +7549,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 631,
       "drug_name": "Esomeprazole",
       "concentration": "20 mg",
       "drug_form": "Tab",
@@ -8191,7 +7561,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 632,
       "drug_name": "Esomeprazole",
       "concentration": "40 mg",
       "drug_form": "Tab",
@@ -8204,7 +7573,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 633,
       "drug_name": "Metoclopramide Hcl",
       "concentration": "10 mg",
       "drug_form": "Tab",
@@ -8217,7 +7585,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 634,
       "drug_name": "Metoclopramide Hcl +Vit.B6",
       "concentration": null,
       "drug_form": "Amp",
@@ -8230,7 +7597,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 635,
       "drug_name": "Metoclopramide (adult)",
       "concentration": "20 mg",
       "drug_form": "Supp",
@@ -8243,7 +7609,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 636,
       "drug_name": "Metoclopramide",
       "concentration": "10 mg",
       "drug_form": "Supp",
@@ -8256,7 +7621,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 637,
       "drug_name": "Metoclopramide",
       "concentration": null,
       "drug_form": "Syrup",
@@ -8269,7 +7633,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 638,
       "drug_name": "Domperidone",
       "concentration": "10 mg",
       "drug_form": "Tab",
@@ -8282,7 +7645,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 639,
       "drug_name": "Domperidone Adult",
       "concentration": "30 mg",
       "drug_form": "Supp",
@@ -8295,7 +7657,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 640,
       "drug_name": "Domperidone",
       "concentration": "1mg / ml",
       "drug_form": "Syrup",
@@ -8308,7 +7669,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 641,
       "drug_name": "Trimebutine 200 mg",
       "concentration": "200 mg",
       "drug_form": "Tab",
@@ -8321,7 +7681,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 642,
       "drug_name": "Suprarenal cortical Extract+Vit B6 (adult)",
       "concentration": null,
       "drug_form": "Amp",
@@ -8334,7 +7693,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 643,
       "drug_name": "Digestive",
       "concentration": null,
       "drug_form": "Tab",
@@ -8347,7 +7705,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 644,
       "drug_name": "Digestive (student)",
       "concentration": null,
       "drug_form": "Syrup",
@@ -8360,7 +7717,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 645,
       "drug_name": "Atropine sulphate",
       "concentration": "1 mg",
       "drug_form": "Amp",
@@ -8373,7 +7729,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 646,
       "drug_name": "Hyoscine butyl bromide",
       "concentration": "10 mg",
       "drug_form": "Tab",
@@ -8386,7 +7741,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 647,
       "drug_name": "Mebeverine",
       "concentration": "100 mg",
       "drug_form": "Tab",
@@ -8399,7 +7753,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 648,
       "drug_name": "Tiemonium methyl sulphate",
       "concentration": "50 mg",
       "drug_form": "Tab,syp",
@@ -8412,7 +7765,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 649,
       "drug_name": "Sulfaslazine",
       "concentration": "500 mg",
       "drug_form": "Tab",
@@ -8425,7 +7777,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 650,
       "drug_name": "Mesalazine",
       "concentration": "500 mg",
       "drug_form": "Tab",
@@ -8438,7 +7789,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 651,
       "drug_name": "Menthol+Menthone+Borneol",
       "concentration": null,
       "drug_form": "Cap",
@@ -8451,7 +7801,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 652,
       "drug_name": "Sorbitol powder",
       "concentration": null,
       "drug_form": "sachet",
@@ -8464,7 +7813,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 653,
       "drug_name": "Antacids containing simethicone",
       "concentration": null,
       "drug_form": "Susp",
@@ -8477,7 +7825,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 654,
       "drug_name": "Rebamipide",
       "concentration": "100mg",
       "drug_form": "tab",
@@ -8490,7 +7837,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 655,
       "drug_name": "Sulpiride 25mg +Mebeverine 100mg",
       "concentration": "25mg +100mg",
       "drug_form": "tab",
@@ -8503,7 +7849,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 656,
       "drug_name": "Miopan",
       "concentration": "100ml",
       "drug_form": "syp",
@@ -8516,7 +7861,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 656,
       "drug_name": "Loperamide Hcl",
       "concentration": "2mg",
       "drug_form": "Tab",
@@ -8529,7 +7873,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 657,
       "drug_name": "Kaolin+pectin",
       "concentration": "1gm+20 mg / 5ml",
       "drug_form": "Susp",
@@ -8542,7 +7885,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 658,
       "drug_name": "Nifuroxazide",
       "concentration": "200 mg",
       "drug_form": "Cap",
@@ -8555,7 +7897,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 659,
       "drug_name": "Oral rehydration salt formulation",
       "concentration": null,
       "drug_form": "Sachet",
@@ -8568,7 +7909,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 660,
       "drug_name": "Oral rehydration salt formulation +Zinc",
       "concentration": null,
       "drug_form": "Sachet",
@@ -8581,7 +7921,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 661,
       "drug_name": "Racecadotril",
       "concentration": "10mg",
       "drug_form": "Sachet",
@@ -8594,7 +7933,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 662,
       "drug_name": "Racecadotril",
       "concentration": "30mg",
       "drug_form": "Sachet",
@@ -8607,7 +7945,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 663,
       "drug_name": "Racecadotril",
       "concentration": "100mg",
       "drug_form": "tab",
@@ -8620,7 +7957,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 664,
       "drug_name": "Lactobacillus",
       "concentration": null,
       "drug_form": "Cap",
@@ -8633,7 +7969,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 665,
       "drug_name": "Laxative from Plant origin",
       "concentration": null,
       "drug_form": "Tab",
@@ -8646,7 +7981,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 666,
       "drug_name": "Glycerin + gelatin adult",
       "concentration": null,
       "drug_form": "Supp",
@@ -8659,7 +7993,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 667,
       "drug_name": "Lactulose",
       "concentration": null,
       "drug_form": "Syrup",
@@ -8672,7 +8005,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 668,
       "drug_name": "Docusate sodium",
       "concentration": "20 mg / 5ml",
       "drug_form": "Syrup",
@@ -8685,7 +8017,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 669,
       "drug_name": "Silymarin 70 mg",
       "concentration": "70 mg",
       "drug_form": "Tab",
@@ -8698,7 +8029,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 670,
       "drug_name": "Silymarin 140 mg",
       "concentration": "140 mg",
       "drug_form": "Tab",
@@ -8711,7 +8041,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 671,
       "drug_name": "Silymarin 160 mg",
       "concentration": "160 mg",
       "drug_form": "Tab",
@@ -8724,7 +8053,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 672,
       "drug_name": "Hepato protective",
       "concentration": null,
       "drug_form": "Tab",
@@ -8737,7 +8065,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 673,
       "drug_name": "Interferon pegylated (protocol)",
       "concentration": null,
       "drug_form": "Vial",
@@ -8750,7 +8077,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 674,
       "drug_name": "Interferon 3000.000 I.U (protocol)",
       "concentration": "3000.000 I.U",
       "drug_form": "Vial",
@@ -8763,7 +8089,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 675,
       "drug_name": "Amantadine",
       "concentration": "100 mg",
       "drug_form": "Cap",
@@ -8776,7 +8101,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 676,
       "drug_name": "Ribavirin",
       "concentration": "200 mg",
       "drug_form": "Cap",
@@ -8789,7 +8113,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 677,
       "drug_name": "Ursodeoxycholic acid (protocol)",
       "concentration": "250 mg",
       "drug_form": "Cap",
@@ -8802,7 +8125,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 678,
       "drug_name": "Ursodeoxycholic acid (protocol)",
       "concentration": "450mg",
       "drug_form": "Cap",
@@ -8815,7 +8137,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 664,
       "drug_name": "Doxazocin 1 mg",
       "concentration": "1 mg",
       "drug_form": "Tab",
@@ -8828,7 +8149,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 665,
       "drug_name": "Doxazocin 4 mg",
       "concentration": "4 mg",
       "drug_form": "Tab",
@@ -8841,7 +8161,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 666,
       "drug_name": "Anethole+Borneol+pinene",
       "concentration": null,
       "drug_form": "Cap",
@@ -8854,7 +8173,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 667,
       "drug_name": "Ichthyol+potassium iodide",
       "concentration": null,
       "drug_form": "Supp",
@@ -8867,7 +8185,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 668,
       "drug_name": "Flavoxate",
       "concentration": "200 mg",
       "drug_form": "Tab",
@@ -8880,7 +8197,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 669,
       "drug_name": "Echinacea Angustifolia Ext",
       "concentration": null,
       "drug_form": "Tab",
@@ -8893,7 +8209,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 670,
       "drug_name": "Oxybutynin",
       "concentration": "5 mg",
       "drug_form": "Tab",
@@ -8906,7 +8221,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 671,
       "drug_name": "Finasteride ( for benign prostatic hypertrophy)",
       "concentration": "5 mg",
       "drug_form": "Tab",
@@ -8919,7 +8233,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 672,
       "drug_name": "Tamsulin",
       "concentration": "0.4 mg",
       "drug_form": "Tab",
@@ -8932,7 +8245,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 673,
       "drug_name": "Prostaglandin (PGI) + Alprostadil",
       "concentration": "20 mcg",
       "drug_form": "Amp",
@@ -8945,7 +8257,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 674,
       "drug_name": "Dutasteride",
       "concentration": "0.5mg",
       "drug_form": "tab",
@@ -8958,7 +8269,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 675,
       "drug_name": "Solifenacin",
       "concentration": "10mg",
       "drug_form": "tab",
@@ -8971,7 +8281,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 676,
       "drug_name": "Magnesium citrate",
       "concentration": null,
       "drug_form": "Sachet Eff",
@@ -8984,7 +8293,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 677,
       "drug_name": "Hyoscine Butylbromid",
       "concentration": "20 mg",
       "drug_form": "Amp",
@@ -8997,7 +8305,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 678,
       "drug_name": "(piperazine+hexamine+khellin)",
       "concentration": null,
       "drug_form": "Eff. G",
@@ -9010,7 +8317,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 679,
       "drug_name": "Piperazine hydrate+colchicine+Atropine",
       "concentration": null,
       "drug_form": "Sachet Eff.",
@@ -9023,7 +8329,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 680,
       "drug_name": "Halphabarol+piprazine Eff.G",
       "concentration": null,
       "drug_form": "Eff. G",
@@ -9036,7 +8341,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 681,
       "drug_name": "Halphabarol",
       "concentration": "0.4 mg",
       "drug_form": "Tab",
@@ -9049,7 +8353,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 682,
       "drug_name": "Khellin+atropine+phenobarbital",
       "concentration": null,
       "drug_form": "Amp",
@@ -9062,7 +8365,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 683,
       "drug_name": "Antispasmodic",
       "concentration": null,
       "drug_form": "Tab",
@@ -9075,7 +8377,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 684,
       "drug_name": "Antispasmodic Supp(adult )",
       "concentration": null,
       "drug_form": "Supp",
@@ -9088,7 +8389,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 685,
       "drug_name": "Mesna",
       "concentration": "400 mg",
       "drug_form": "Amp",
@@ -9101,7 +8401,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 686,
       "drug_name": "Lomustine 10 mg",
       "concentration": "10 mg",
       "drug_form": "Cap",
@@ -9114,7 +8413,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 687,
       "drug_name": "Lomustine 40 mg",
       "concentration": "40 mg",
       "drug_form": "Cap",
@@ -9127,7 +8425,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 688,
       "drug_name": "Lomustine 100 mg",
       "concentration": "100 mg",
       "drug_form": "Cap",
@@ -9140,7 +8437,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 689,
       "drug_name": "Bleomycin",
       "concentration": "15 mg",
       "drug_form": "Amp",
@@ -9153,7 +8449,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 690,
       "drug_name": "Mitomycin",
       "concentration": "5 mg",
       "drug_form": "Vial",
@@ -9166,7 +8461,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 691,
       "drug_name": "Disodium Clodronate 400 mg",
       "concentration": "400 mg",
       "drug_form": "Cap",
@@ -9179,7 +8473,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 692,
       "drug_name": "Disodium Clodronate 300 mg",
       "concentration": "300 mg",
       "drug_form": "Amp",
@@ -9192,7 +8485,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 693,
       "drug_name": "Megestrol Acetate",
       "concentration": "40 mg",
       "drug_form": "Tab",
@@ -9205,7 +8497,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 694,
       "drug_name": "Etoposide100 mg",
       "concentration": "100 mg",
       "drug_form": "Amp",
@@ -9218,7 +8509,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 695,
       "drug_name": "Etoposide 50 mg",
       "concentration": "50 mg",
       "drug_form": "Cap",
@@ -9231,7 +8521,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 696,
       "drug_name": "Carboplatin 150 mg",
       "concentration": "150 mg",
       "drug_form": "Vial",
@@ -9244,7 +8533,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 697,
       "drug_name": "Carboplatin 450 mg",
       "concentration": "450 mg",
       "drug_form": "Vial",
@@ -9257,7 +8545,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 698,
       "drug_name": "Epirubicin 10 mg",
       "concentration": "10 mg",
       "drug_form": "Vial",
@@ -9270,7 +8557,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 699,
       "drug_name": "Epirubicin 50 mg",
       "concentration": "50 mg",
       "drug_form": "Vial",
@@ -9283,7 +8569,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 700,
       "drug_name": "Flutamide",
       "concentration": "250 mg",
       "drug_form": "Tab",
@@ -9296,7 +8581,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 701,
       "drug_name": "Methotrexate",
       "concentration": "2.5 mg",
       "drug_form": "Tab",
@@ -9309,7 +8593,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 702,
       "drug_name": "Methotrexate",
       "concentration": "500 mg/20 ml",
       "drug_form": "Vial",
@@ -9322,7 +8605,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 703,
       "drug_name": "Methotrexate",
       "concentration": "50 mg /ml",
       "drug_form": "Vial",
@@ -9335,7 +8617,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 704,
       "drug_name": "Fluorouracil",
       "concentration": "250 mg-500 mg",
       "drug_form": "Vial",
@@ -9348,7 +8629,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 705,
       "drug_name": "Vincristine Sulfate",
       "concentration": "1 mg",
       "drug_form": "Vial",
@@ -9361,7 +8641,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 706,
       "drug_name": "Doxorubicin 10 mg",
       "concentration": "10 mg",
       "drug_form": "Vial",
@@ -9374,7 +8653,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 707,
       "drug_name": "Doxorubicin 50 mg",
       "concentration": "50 mg",
       "drug_form": "Vial",
@@ -9387,7 +8665,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 708,
       "drug_name": "Cisplatin 10 mg",
       "concentration": "10 mg",
       "drug_form": "Vial",
@@ -9400,7 +8677,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 709,
       "drug_name": "Cisplatin 50 mg",
       "concentration": "50 mg",
       "drug_form": "Vial",
@@ -9413,7 +8689,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 710,
       "drug_name": "Paclitaxel 30 mg",
       "concentration": "30 mg",
       "drug_form": "Vial",
@@ -9426,7 +8701,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 711,
       "drug_name": "Paclitaxel 300 mg",
       "concentration": "300 mg",
       "drug_form": "Vial",
@@ -9439,7 +8713,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 712,
       "drug_name": "Paclitaxel 100 mg",
       "concentration": "100 mg",
       "drug_form": "Vial",
@@ -9452,7 +8725,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 713,
       "drug_name": "Calcium Folinate",
       "concentration": "50mg",
       "drug_form": "Vial",
@@ -9465,7 +8737,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 714,
       "drug_name": "Aromatase inhibitor",
       "concentration": null,
       "drug_form": "Tab",
@@ -9478,7 +8749,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 715,
       "drug_name": "Vinblastine sulphate",
       "concentration": "10mg",
       "drug_form": "Vial",
@@ -9491,7 +8761,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 716,
       "drug_name": "Tamoxifen citrate",
       "concentration": "10mg",
       "drug_form": "Tab",
@@ -9504,7 +8773,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 717,
       "drug_name": "Mitoxantrone",
       "concentration": "2mg / ml",
       "drug_form": "Vial",
@@ -9517,7 +8785,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 718,
       "drug_name": "Cyclophosphamide 200 mg+Nacl",
       "concentration": "200mg",
       "drug_form": "Vial",
@@ -9530,7 +8797,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 719,
       "drug_name": "Cyclophosphamide",
       "concentration": "500 MG- 1G",
       "drug_form": "Vial",
@@ -9543,7 +8809,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 720,
       "drug_name": "Cyclophosphamide",
       "concentration": "50mg",
       "drug_form": "Tab",
@@ -9556,7 +8821,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 721,
       "drug_name": "Hydroxyurea",
       "concentration": "500 mg",
       "drug_form": "Cap",
@@ -9569,7 +8833,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 722,
       "drug_name": "Ifosfamide 1g",
       "concentration": "1g",
       "drug_form": "Vial",
@@ -9582,7 +8845,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 723,
       "drug_name": "Ifosfamide 2g",
       "concentration": "2g",
       "drug_form": "Vial",
@@ -9595,7 +8857,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 724,
       "drug_name": "Procarbazine Hcl",
       "concentration": "25mg",
       "drug_form": "Vial",
@@ -9608,7 +8869,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 725,
       "drug_name": "L-Asparaginase",
       "concentration": "10,000 I.U",
       "drug_form": "Vial",
@@ -9621,7 +8881,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 726,
       "drug_name": "Busulphan",
       "concentration": "2 mg",
       "drug_form": "Tab",
@@ -9634,7 +8893,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 727,
       "drug_name": "Chlorambucil",
       "concentration": "5 mg",
       "drug_form": "Tab",
@@ -9647,7 +8905,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 728,
       "drug_name": "Melphalan",
       "concentration": "2 mg",
       "drug_form": "Tab",
@@ -9660,7 +8917,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 729,
       "drug_name": "Docetaxel",
       "concentration": "20 mg",
       "drug_form": "Vial",
@@ -9673,7 +8929,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 730,
       "drug_name": "Docetaxel",
       "concentration": "80 mg",
       "drug_form": "Vial",
@@ -9686,7 +8941,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 731,
       "drug_name": "Capcitabine",
       "concentration": "500 mg",
       "drug_form": "Cap",
@@ -9699,7 +8953,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 732,
       "drug_name": "Gemcitabine",
       "concentration": "1 gm",
       "drug_form": "Vial",
@@ -9712,7 +8965,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 733,
       "drug_name": "Gemcitabine",
       "concentration": "200 mg",
       "drug_form": "Vial",
@@ -9725,7 +8977,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 734,
       "drug_name": "Fludarabine",
       "concentration": "25 mg",
       "drug_form": "Vial",
@@ -9738,7 +8989,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 735,
       "drug_name": "Mistletoe extract",
       "concentration": null,
       "drug_form": "Amp",
@@ -9751,7 +9001,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 736,
       "drug_name": "Imatinib",
       "concentration": "100&400mg",
       "drug_form": "Cap",
@@ -9764,7 +9013,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 737,
       "drug_name": "Oxaliplatin",
       "concentration": "50 -100-150 MG",
       "drug_form": "Vial",
@@ -9777,7 +9025,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 738,
       "drug_name": "Serotonin antagonist",
       "concentration": null,
       "drug_form": "Amp",
@@ -9790,7 +9037,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 739,
       "drug_name": "Growth factor (granocyte )",
       "concentration": null,
       "drug_form": "Vial",
@@ -9803,7 +9049,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 740,
       "drug_name": "Azathioprine",
       "concentration": "50 mg",
       "drug_form": "Tab",
@@ -9816,7 +9061,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 741,
       "drug_name": "Leflunamide",
       "concentration": "10 mg- 20 mg",
       "drug_form": "Tab",
@@ -9829,7 +9073,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 742,
       "drug_name": "Rapammune",
       "concentration": "1gm",
       "drug_form": "Tab",
@@ -9842,7 +9085,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 743,
       "drug_name": "Anastrazole",
       "concentration": "1mg",
       "drug_form": "Tab",
@@ -9855,7 +9097,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 744,
       "drug_name": "Cytarabine",
       "concentration": "100 mg",
       "drug_form": "Vial",
@@ -9868,7 +9109,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 745,
       "drug_name": "Cytarabine",
       "concentration": "1gm",
       "drug_form": "Vial",
@@ -9881,7 +9121,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 746,
       "drug_name": "Bicalutamide",
       "concentration": "50 mg",
       "drug_form": "Cap or Tab",
@@ -9894,7 +9133,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 747,
       "drug_name": "Neurokinin 1 receptor antagonist",
       "concentration": null,
       "drug_form": "Cap or Tab",
@@ -9907,7 +9145,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 748,
       "drug_name": "Vitamin B complex",
       "concentration": null,
       "drug_form": "Tab",
@@ -9920,7 +9157,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 749,
       "drug_name": "Ergocalciferol (vit D3) 600.000 I.U",
       "concentration": "600.000 I.U",
       "drug_form": "Amp",
@@ -9933,7 +9169,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 750,
       "drug_name": "cholicalciferol VIT D3 2800 IU/ML",
       "concentration": null,
       "drug_form": "syp",
@@ -9946,7 +9181,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 751,
       "drug_name": "cholicalciferol VIT D3 400 IU/ML",
       "concentration": null,
       "drug_form": "syp",
@@ -9959,7 +9193,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 752,
       "drug_name": "cholicalciferol VIT D3 10,000 IU/ML",
       "concentration": null,
       "drug_form": "syp",
@@ -9972,7 +9205,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 753,
       "drug_name": "Calcium Gluconate",
       "concentration": "0.1",
       "drug_form": "Amp",
@@ -9985,7 +9217,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 754,
       "drug_name": "Ferrous Iron salts",
       "concentration": null,
       "drug_form": "Tab",
@@ -9998,7 +9229,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 755,
       "drug_name": "Vitamin contain Zn salt",
       "concentration": null,
       "drug_form": "Tab",
@@ -10011,7 +9241,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 756,
       "drug_name": "Ascorbic acid+Rutin",
       "concentration": "160 mg +60 mg",
       "drug_form": "Tab",
@@ -10024,7 +9253,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 757,
       "drug_name": "Vitamin E",
       "concentration": "100 & 400 mg",
       "drug_form": "Cap",
@@ -10037,7 +9265,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 758,
       "drug_name": "Vitamin (A+E)",
       "concentration": null,
       "drug_form": "Cap",
@@ -10050,7 +9277,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 759,
       "drug_name": "Elemental calcium 500mg + vitamin D tablet",
       "concentration": null,
       "drug_form": "tab",
@@ -10063,7 +9289,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 760,
       "drug_name": "Elemental calcium at least 500 mg without vitamin D TAB",
       "concentration": null,
       "drug_form": "TAB",
@@ -10076,7 +9301,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 761,
       "drug_name": "Calcium acetate 700 mg tablet",
       "concentration": "700 mg",
       "drug_form": "tab",
@@ -10089,7 +9313,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 762,
       "drug_name": "calcium citrate+ magnesium citrate",
       "concentration": null,
       "drug_form": "tab",
@@ -10102,7 +9325,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 763,
       "drug_name": "calcium+magnesium+zinc+vitamin D3 tablet",
       "concentration": null,
       "drug_form": "tab",
@@ -10115,7 +9337,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 764,
       "drug_name": "Calcium carbonate",
       "concentration": "500 mg",
       "drug_form": "Cap",
@@ -10128,7 +9349,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 765,
       "drug_name": "Elemental iron27mg+ folic acid600mcg+vitamin B 12 tablet",
       "concentration": null,
       "drug_form": "Tab",
@@ -10141,7 +9361,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 766,
       "drug_name": "zinc sulphate syrup",
       "concentration": null,
       "drug_form": "syp",
@@ -10154,7 +9373,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 767,
       "drug_name": "iron drops",
       "concentration": null,
       "drug_form": "drops",
@@ -10167,7 +9385,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 768,
       "drug_name": "Ferrous Syrup student",
       "concentration": null,
       "drug_form": "syrup",
@@ -10180,7 +9397,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 769,
       "drug_name": "Ferrous Fumarate+Folic acid",
       "concentration": null,
       "drug_form": "Tab",
@@ -10193,7 +9409,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 770,
       "drug_name": "Calcium+ Vitamins student",
       "concentration": null,
       "drug_form": "syrup",
@@ -10206,7 +9421,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 771,
       "drug_name": "Folic acid+Iron+ calcium tablet",
       "concentration": null,
       "drug_form": "Tab",
@@ -10219,7 +9433,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 772,
       "drug_name": "Folic acid",
       "concentration": "0.5 mg",
       "drug_form": "Tab",
@@ -10232,7 +9445,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 773,
       "drug_name": "Folic acid",
       "concentration": "5 mg",
       "drug_form": "Tab",
@@ -10245,7 +9457,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 774,
       "drug_name": "Vitamin B12",
       "concentration": "1000 mcg",
       "drug_form": "Amp",
@@ -10258,7 +9469,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 775,
       "drug_name": "Vitamin C (ascorbic acid)",
       "concentration": "500 mg",
       "drug_form": "Tab",
@@ -10271,7 +9481,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 776,
       "drug_name": "Vitamin A",
       "concentration": "50000 I.U",
       "drug_form": "Cap",
@@ -10284,7 +9493,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 777,
       "drug_name": "syp contain ca salt except calcium levulinate",
       "concentration": null,
       "drug_form": "syp",
@@ -10297,7 +9505,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 778,
       "drug_name": "syrup containig vitamin B",
       "concentration": null,
       "drug_form": "syp",
@@ -10310,7 +9517,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 779,
       "drug_name": "pyridoxine Hcl+VIT B6+Riboflavin+VIT B2+VIT B1+thiamine+NICOTINAMIDE+dexapanthenol syp",
       "concentration": null,
       "drug_form": "syp",
@@ -10323,7 +9529,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 780,
       "drug_name": "Calcium + Vitamin D",
       "concentration": null,
       "drug_form": "Tab",
@@ -10336,7 +9541,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 781,
       "drug_name": "fish oil+omega3 + vit E",
       "concentration": "1200mg+ 600mg",
       "drug_form": "cap",
@@ -10349,7 +9553,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 782,
       "drug_name": "ergocalciferol 0.25mg",
       "concentration": "10000 IU",
       "drug_form": "Tab",
@@ -10362,7 +9565,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 783,
       "drug_name": "Milga",
       "concentration": "tab",
       "drug_form": "Tab",
@@ -10375,7 +9577,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 784,
       "drug_name": "Growth Hormone 4 I.U+solvent for single use (protocol)",
       "concentration": "4 I.U",
       "drug_form": "syring",
@@ -10388,7 +9589,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 785,
       "drug_name": "Alfacalcidol 1 mcg",
       "concentration": "1mcg",
       "drug_form": "Cap & Tab",
@@ -10401,7 +9601,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 786,
       "drug_name": "Alfacalcidol 0.5 mcg",
       "concentration": "0.5 mcg",
       "drug_form": "Cap & Tab",
@@ -10414,7 +9613,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 787,
       "drug_name": "Alfacalcidol 0.25 mcg",
       "concentration": "0.25 mcg",
       "drug_form": "Cap & Tab",
@@ -10427,7 +9625,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 788,
       "drug_name": "Alfacalcidol Drop",
       "concentration": "2 mcg/ml",
       "drug_form": "Drop",
@@ -10440,7 +9637,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 789,
       "drug_name": "Erythropoietin",
       "concentration": "2000 I.U",
       "drug_form": "vial",
@@ -10453,7 +9649,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 790,
       "drug_name": "Erythropoietin",
       "concentration": "4000 I.U",
       "drug_form": "vial",
@@ -10466,7 +9661,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 791,
       "drug_name": "L-Carnitine",
       "concentration": "350mg",
       "drug_form": "Cap",
@@ -10479,7 +9673,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 792,
       "drug_name": "L-Carnitine",
       "concentration": "300mg/ml",
       "drug_form": "syrup",
@@ -10492,7 +9685,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 793,
       "drug_name": "L-Carnitine",
       "concentration": "1gm / 5ml",
       "drug_form": "Amp",
@@ -10505,7 +9697,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 794,
       "drug_name": "Alpha lipoic acid (antioxidant group)",
       "concentration": "300 mg",
       "drug_form": "Cap or Tab",
@@ -10518,7 +9709,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 795,
       "drug_name": "Alphalipoic acid (antioxidant group)",
       "concentration": "600 mg",
       "drug_form": "Cap or Tab",
@@ -10531,7 +9721,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 796,
       "drug_name": "Deferiprone",
       "concentration": "500 mg",
       "drug_form": "Tab",
@@ -10544,7 +9733,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 797,
       "drug_name": "Deferasirox 125 mg",
       "concentration": "125 mg",
       "drug_form": "Tab",
@@ -10557,7 +9745,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 798,
       "drug_name": "Deferasirox 250 mg",
       "concentration": "250mg",
       "drug_form": "Tab",
@@ -10570,7 +9757,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 799,
       "drug_name": "Deferasirox 500 mg",
       "concentration": "500 mg",
       "drug_form": "Tab",
@@ -10583,7 +9769,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 800,
       "drug_name": "Deferoxamine mesylate",
       "concentration": "500 mg",
       "drug_form": "amp",
@@ -10596,7 +9781,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 801,
       "drug_name": "Memantine",
       "concentration": "10 mg",
       "drug_form": "Tab",
@@ -10609,7 +9793,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 802,
       "drug_name": "Memantine",
       "concentration": "10mg/ml",
       "drug_form": "oral dp",
@@ -10622,7 +9805,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 803,
       "drug_name": "citicholine",
       "concentration": "500mg/4ml",
       "drug_form": "amp",
@@ -10635,7 +9817,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 804,
       "drug_name": "citicholine",
       "concentration": "100mg/ml",
       "drug_form": "oral dp",
@@ -10648,7 +9829,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 805,
       "drug_name": "ginko biloba leaves",
       "concentration": "40mg",
       "drug_form": "tab",
@@ -10661,7 +9841,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 806,
       "drug_name": "Cabergoline",
       "concentration": "0.5mg",
       "drug_form": "tab",
@@ -10674,7 +9853,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 807,
       "drug_name": "Sildenafil",
       "concentration": "20mg",
       "drug_form": "tab",
@@ -10687,7 +9865,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 808,
       "drug_name": "Sildenafil",
       "concentration": "50mg",
       "drug_form": "tab",
@@ -10700,7 +9877,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 809,
       "drug_name": "Sildenafil",
       "concentration": "100mg",
       "drug_form": "tab",
@@ -10713,7 +9889,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 810,
       "drug_name": "Cinacalcet",
       "concentration": "30mg",
       "drug_form": "Tab",
@@ -10726,7 +9901,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 811,
       "drug_name": "Aranesp",
       "concentration": "10,20,30",
       "drug_form": "pref. Syringe",
@@ -10739,7 +9913,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 812,
       "drug_name": "Dimethyl fumarate",
       "concentration": "240mg",
       "drug_form": "tab",
@@ -10752,7 +9925,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 813,
       "drug_name": "Cladribine",
       "concentration": "10mg",
       "drug_form": "tab",
@@ -10765,7 +9937,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 814,
       "drug_name": "Natalizumab",
       "concentration": "20mg/ml",
       "drug_form": "vial",
@@ -10778,7 +9949,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 816,
       "drug_name": "Herceptin (Trastuzumab) IV",
       "concentration": null,
       "drug_form": null,
@@ -10791,7 +9961,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 817,
       "drug_name": "Herceptin (Trastuzumab) SC",
       "concentration": null,
       "drug_form": null,
@@ -10804,7 +9973,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 818,
       "drug_name": "perjeta (pertuzumab)/ Herceptin (trastuzumab)",
       "concentration": null,
       "drug_form": null,
@@ -10817,7 +9985,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 819,
       "drug_name": "Mabthera (Rituximab)",
       "concentration": null,
       "drug_form": null,
@@ -10830,7 +9997,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 820,
       "drug_name": "Temodal (Temozolamide)",
       "concentration": null,
       "drug_form": null,
@@ -10843,7 +10009,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 821,
       "drug_name": "Sutent (Sunitinib)",
       "concentration": null,
       "drug_form": null,
@@ -10856,7 +10021,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 822,
       "drug_name": "Velcade (Bortezomib)",
       "concentration": null,
       "drug_form": null,
@@ -10869,7 +10033,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 823,
       "drug_name": "Alimta (Pemetrexed)",
       "concentration": null,
       "drug_form": null,
@@ -10882,7 +10045,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 824,
       "drug_name": "Tykerb (Lapatinib)",
       "concentration": null,
       "drug_form": null,
@@ -10895,7 +10057,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 825,
       "drug_name": "Afinitor (Everolimus)",
       "concentration": null,
       "drug_form": null,
@@ -10908,7 +10069,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 826,
       "drug_name": "Avastin (bevacizumab)",
       "concentration": null,
       "drug_form": null,
@@ -10921,7 +10081,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 827,
       "drug_name": "Nexavar (Sorafenib)",
       "concentration": null,
       "drug_form": null,
@@ -10934,7 +10093,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 828,
       "drug_name": "Votrient (Pazopanib)",
       "concentration": null,
       "drug_form": null,
@@ -10947,7 +10105,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 829,
       "drug_name": "Caelyx (liposomal doxorubicin)",
       "concentration": null,
       "drug_form": null,
@@ -10960,7 +10117,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 830,
       "drug_name": "Erbitux (Cetuximab)",
       "concentration": null,
       "drug_form": null,
@@ -10973,7 +10129,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 831,
       "drug_name": "Vectibix (panitumumab)",
       "concentration": null,
       "drug_form": null,
@@ -10986,7 +10141,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 832,
       "drug_name": "Prolia ONCO (Denosumab 60 )",
       "concentration": null,
       "drug_form": null,
@@ -10999,7 +10153,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 833,
       "drug_name": "Xgeva (denosumab 120 )",
       "concentration": null,
       "drug_form": null,
@@ -11012,7 +10165,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 834,
       "drug_name": "Zytiga (abiraterone acetate)",
       "concentration": null,
       "drug_form": null,
@@ -11025,7 +10177,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 835,
       "drug_name": "Imbruvica (Ibrutinib",
       "concentration": null,
       "drug_form": null,
@@ -11038,7 +10189,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 836,
       "drug_name": "calquence ( acalabrutinb)",
       "concentration": null,
       "drug_form": null,
@@ -11051,7 +10201,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 837,
       "drug_name": "Cyramza (Ramucirumab)",
       "concentration": null,
       "drug_form": null,
@@ -11064,7 +10213,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 838,
       "drug_name": "Xalkori (crizotinib)",
       "concentration": null,
       "drug_form": null,
@@ -11077,7 +10225,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 839,
       "drug_name": "Iressa (gefitinib)",
       "concentration": null,
       "drug_form": null,
@@ -11090,7 +10237,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 840,
       "drug_name": "tagrisso ( osimertinib)",
       "concentration": null,
       "drug_form": null,
@@ -11103,7 +10249,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 841,
       "drug_name": "immunomide (Lenalidomide)",
       "concentration": null,
       "drug_form": null,
@@ -11116,7 +10261,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 842,
       "drug_name": "immunomide (Lenalidomide) + Velcade",
       "concentration": null,
       "drug_form": null,
@@ -11129,7 +10273,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 843,
       "drug_name": "Sandostatin LAR (octreotide)",
       "concentration": null,
       "drug_form": null,
@@ -11142,7 +10285,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 844,
       "drug_name": "Kadcyla (trastuzumab emtansine)",
       "concentration": null,
       "drug_form": null,
@@ -11155,7 +10297,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 845,
       "drug_name": "ibrance ( palbociclib)",
       "concentration": null,
       "drug_form": null,
@@ -11168,7 +10309,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 846,
       "drug_name": "kisqali ( ribocilclib )",
       "concentration": null,
       "drug_form": null,
@@ -11181,7 +10321,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 847,
       "drug_name": "verzenio ( abemaciclib )",
       "concentration": null,
       "drug_form": null,
@@ -11194,7 +10333,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 848,
       "drug_name": "Tocilizumab (Actemra)",
       "concentration": null,
       "drug_form": null,
@@ -11207,7 +10345,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 849,
       "drug_name": "Adalimumab (Humira)",
       "concentration": null,
       "drug_form": null,
@@ -11220,7 +10357,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 850,
       "drug_name": "Etanercept (Enbrel)",
       "concentration": null,
       "drug_form": null,
@@ -11233,7 +10369,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 851,
       "drug_name": "Infliximab (Remicade)",
       "concentration": null,
       "drug_form": null,
@@ -11246,7 +10381,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 852,
       "drug_name": "Secukinumab (Cosentyx)",
       "concentration": null,
       "drug_form": null,
@@ -11259,7 +10393,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 853,
       "drug_name": "Nplate (ROMIPLOSTIM)",
       "concentration": null,
       "drug_form": null,
@@ -11272,7 +10405,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 854,
       "drug_name": "CIMZIA (CERTOLIZUMAB)",
       "concentration": null,
       "drug_form": null,
@@ -11285,7 +10417,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 855,
       "drug_name": "Mabthera (Rituximab)",
       "concentration": null,
       "drug_form": null,
@@ -11298,7 +10429,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 856,
       "drug_name": "Prolia BIO (Denosumab",
       "concentration": null,
       "drug_form": null,
@@ -11311,7 +10441,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 857,
       "drug_name": "Jakavi",
       "concentration": null,
       "drug_form": null,
@@ -11324,7 +10453,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 858,
       "drug_name": "Hemlibra (Emicizumab)",
       "concentration": null,
       "drug_form": null,
@@ -11337,7 +10465,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 859,
       "drug_name": "Tremfya",
       "concentration": null,
       "drug_form": null,
@@ -11350,7 +10477,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 860,
       "drug_name": "Amgevita 40 mg",
       "concentration": null,
       "drug_form": null,
@@ -11363,7 +10489,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 861,
       "drug_name": "Stelara (ustekinumab)",
       "concentration": null,
       "drug_form": null,
@@ -11376,7 +10501,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 862,
       "drug_name": "Simponi (golimumab)",
       "concentration": null,
       "drug_form": null,
@@ -11389,7 +10513,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 863,
       "drug_name": "Revolade 5 ( eltrombage )",
       "concentration": null,
       "drug_form": null,
@@ -11402,7 +10525,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 864,
       "drug_name": "darbepoetin (aranesep )",
       "concentration": null,
       "drug_form": null,
@@ -11415,7 +10537,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 865,
       "drug_name": "factor 7",
       "concentration": null,
       "drug_form": null,
@@ -11428,7 +10549,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 866,
       "drug_name": "factor 9",
       "concentration": null,
       "drug_form": null,
@@ -11441,7 +10561,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 867,
       "drug_name": "immnunoglobulin ( ivig )",
       "concentration": null,
       "drug_form": null,
@@ -11454,7 +10573,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 868,
       "drug_name": "mycophenolic acid",
       "concentration": null,
       "drug_form": null,
@@ -11467,7 +10585,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 869,
       "drug_name": "amino acid supp",
       "concentration": null,
       "drug_form": null,
@@ -11480,7 +10597,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 870,
       "drug_name": "miglustat",
       "concentration": null,
       "drug_form": null,
@@ -11493,7 +10609,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 871,
       "drug_name": "xeljanx ( tofacitinib )",
       "concentration": null,
       "drug_form": null,
@@ -11506,7 +10621,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 872,
       "drug_name": "zometa (zoledronic acid ) 4 mg",
       "concentration": null,
       "drug_form": null,
@@ -11519,7 +10633,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 873,
       "drug_name": "zometa (zoledronic acid ) 5 mg",
       "concentration": null,
       "drug_form": null,
@@ -11532,7 +10645,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 874,
       "drug_name": "kuvan ( sapropterin )",
       "concentration": null,
       "drug_form": null,
@@ -11545,7 +10657,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 875,
       "drug_name": "invega ( paliperidone )",
       "concentration": null,
       "drug_form": null,
@@ -11558,7 +10669,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 876,
       "drug_name": "sandotatin ( octreotide 0.1 mg )",
       "concentration": null,
       "drug_form": null,
@@ -11571,7 +10681,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 877,
       "drug_name": "sandostatin lar( octreotide 30 mg )",
       "concentration": null,
       "drug_form": null,
@@ -11584,7 +10693,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 878,
       "drug_name": "olumint ( baracitinib )",
       "concentration": null,
       "drug_form": null,
@@ -11597,7 +10705,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 879,
       "drug_name": "forteo ( teripatide )",
       "concentration": null,
       "drug_form": null,
@@ -11610,7 +10717,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 880,
       "drug_name": "opsumit ( macitentan )",
       "concentration": null,
       "drug_form": null,
@@ -11623,7 +10729,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 881,
       "drug_name": "skirizi (risankizumab )",
       "concentration": null,
       "drug_form": null,
@@ -11636,7 +10741,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 882,
       "drug_name": "rinvoq ( upadacitinib )",
       "concentration": null,
       "drug_form": null,
@@ -11649,7 +10753,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 883,
       "drug_name": "Cyclosporine soln 50ml",
       "concentration": "100 mg /ml",
       "drug_form": "Bottle",
@@ -11662,7 +10765,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 884,
       "drug_name": "Cyclosporine 25 mg",
       "concentration": "25 mg",
       "drug_form": "Cap",
@@ -11675,7 +10777,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 885,
       "drug_name": "Cyclosporine 50 mg",
       "concentration": "50 mg",
       "drug_form": "Cap",
@@ -11688,7 +10789,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 886,
       "drug_name": "Cyclosporine 100 mg",
       "concentration": "100 mg",
       "drug_form": "Cap",
@@ -11701,7 +10801,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 887,
       "drug_name": "Navelbine",
       "concentration": null,
       "drug_form": null,
@@ -11714,7 +10813,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 888,
       "drug_name": "phesgo",
       "concentration": null,
       "drug_form": null,
@@ -11727,7 +10825,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 889,
       "drug_name": "sprycel",
       "concentration": null,
       "drug_form": null,
@@ -11740,7 +10837,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 890,
       "drug_name": "Tasigna",
       "concentration": null,
       "drug_form": null,
@@ -11753,7 +10849,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 891,
       "drug_name": "Tacrolimus",
       "concentration": null,
       "drug_form": null,
@@ -11766,7 +10861,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 892,
       "drug_name": "zoladex",
       "concentration": null,
       "drug_form": null,
@@ -11779,7 +10873,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 893,
       "drug_name": "ponovory",
       "concentration": null,
       "drug_form": null,
@@ -11792,7 +10885,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 894,
       "drug_name": "aubagio",
       "concentration": null,
       "drug_form": null,
@@ -11805,7 +10897,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 895,
       "drug_name": "gilenya",
       "concentration": null,
       "drug_form": null,
@@ -11818,7 +10909,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 896,
       "drug_name": "ocrevus",
       "concentration": null,
       "drug_form": null,
@@ -11831,7 +10921,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 897,
       "drug_name": "faslodex (fluvestrant)",
       "concentration": null,
       "drug_form": null,
@@ -11844,7 +10933,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 898,
       "drug_name": "opdivo ( nivolumab)",
       "concentration": null,
       "drug_form": null,
@@ -11857,7 +10945,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 899,
       "drug_name": "ketyruda (pembrolizumab)",
       "concentration": null,
       "drug_form": null,
@@ -11870,7 +10957,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 900,
       "drug_name": "Ribomustin (bendamustine hydrochloride)",
       "concentration": null,
       "drug_form": null,
@@ -11883,7 +10969,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 901,
       "drug_name": "JEVTANA (cabazitaxel)",
       "concentration": null,
       "drug_form": null,
@@ -11896,7 +10981,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 902,
       "drug_name": "Kadcyla",
       "concentration": null,
       "drug_form": null,
@@ -11909,7 +10993,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 903,
       "drug_name": "Gazyva (obinutuzumab)",
       "concentration": null,
       "drug_form": null,
@@ -11922,7 +11005,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 904,
       "drug_name": "Acitretin",
       "concentration": null,
       "drug_form": null,
@@ -11935,7 +11017,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 905,
       "drug_name": "Aldurazyme",
       "concentration": null,
       "drug_form": null,
@@ -11948,7 +11029,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 906,
       "drug_name": "creon",
       "concentration": null,
       "drug_form": null,
@@ -11961,7 +11041,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 907,
       "drug_name": "penicillamine",
       "concentration": null,
       "drug_form": null,
@@ -11974,7 +11053,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 908,
       "drug_name": "Riluzole 50 mg",
       "concentration": null,
       "drug_form": null,
@@ -11987,7 +11065,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 909,
       "drug_name": "oprasta vial",
       "concentration": null,
       "drug_form": null,
@@ -12000,7 +11077,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 910,
       "drug_name": "filgrastim",
       "concentration": null,
       "drug_form": null,
@@ -12013,7 +11089,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 911,
       "drug_name": "thrombonorm",
       "concentration": null,
       "drug_form": null,
@@ -12026,7 +11101,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 912,
       "drug_name": "DACARBAZINE",
       "concentration": null,
       "drug_form": null,
@@ -12039,7 +11113,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 913,
       "drug_name": "PAMIDRONATE",
       "concentration": null,
       "drug_form": null,
@@ -12052,7 +11125,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 914,
       "drug_name": "irenotecan",
       "concentration": null,
       "drug_form": null,
@@ -12065,7 +11137,6 @@ window.DRUGS_DATA = {
       "sheet": "free"
     },
     {
-      "serial": 915,
       "drug_name": "leucoverin ( folinic acide)",
       "concentration": null,
       "drug_form": null,

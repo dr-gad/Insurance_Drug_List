@@ -15,6 +15,8 @@ const state = {
   filterGroup: 'all',
   renderOffset: 0,
   PAGE_SIZE: 60,
+  loadObserver: null,
+  isAppending: false,
 };
 
 // ─── DOM REFS ──────────────────────────────────────────────
@@ -38,6 +40,7 @@ const groupSheetOverlay = $('groupSheetOverlay');
 const groupSheetClose   = $('groupSheetClose');
 const groupSheetSearch  = $('groupSheetSearch');
 const groupSheetList    = $('groupSheetList');
+const authorityFilterGroup = $('authorityFilterGroup');
 
 // ─── AUTHORITY / COMMITTEE DISPLAY MAP ────────────────────
 const AUTHORITY_DISPLAY = {
@@ -91,52 +94,113 @@ const GROUP_META = {
   '35': { emoji: '🩺', en: 'Higher Committee - Drug Committee', ar: 'أدوية اللجنة العليا للدواء' },
 };
 
+// ─── DATA NORMALIZATION & HIDDEN SEARCH ALIASES ────────────
+const ARABIC_SEARCH_NAMES = {
+  paracetamol: 'باراسيتامول بنادول', amoxicillin: 'أموكسيسيلين',
+  diclofenac: 'ديكلوفيناك فولتارين', ibuprofen: 'إيبوبروفين',
+  aspirin: 'أسبرين', acetylsalicylic: 'أسيتيل ساليسيليك',
+  insulin: 'إنسولين', metformin: 'ميتفورمين', gliclazide: 'جليكلازيد',
+  amlodipine: 'أملوديبين', losartan: 'لوسارتان', valsartan: 'فالسارتان',
+  bisoprolol: 'بيسوبرولول', atenolol: 'أتينولول', warfarin: 'وارفارين',
+  apixaban: 'أبيكسابان', rivaroxaban: 'ريفاروكسابان',
+  omeprazole: 'أوميبرازول', esomeprazole: 'إيزوميبرازول',
+  pantoprazole: 'بانتوبرازول', azithromycin: 'أزيثروميسين',
+  ciprofloxacin: 'سيبروفلوكساسين', cefixime: 'سيفيكسيم',
+  salbutamol: 'سالبوتامول', budesonide: 'بوديزونيد',
+  prednisolone: 'بريدنيزولون', gabapentin: 'جابابنتين',
+  pregabalin: 'بريجابالين', levetiracetam: 'ليفيتيراسيتام',
+  atorvastatin: 'أتورفاستاتين', rosuvastatin: 'روزوفاستاتين',
+  furosemide: 'فوروسيميد', spironolactone: 'سبيرونولاكتون',
+  nintedanib: 'نينتيدانيب', ofev: 'أوفيف', entresto: 'إنتريستو',
+  xarelto: 'كساريلتو', eliquis: 'إليكويس', plavix: 'بلافِكس',
+  norvasc: 'نورفاسك', nexium: 'نيكسيوم', janumet: 'جانوميت',
+  singulair: 'سينجولير', tresiba: 'تريسيبا', toujeo: 'توجيو',
+};
+
+function titleCaseDrugName(value) {
+  return String(value || '').trim().toLowerCase().replace(/(^|[\s+()/,-])([a-z])/g, (_, sep, ch) => sep + ch.toUpperCase())
+    .replace(/\b(mr|sr|cr|ret|ls)\b/gi, m => m.toUpperCase());
+}
+
+function normalizeUnit(value) {
+  const raw = String(value || '').trim().toLowerCase().replace(/\s+/g, ' ');
+  const aliases = { tab: 'tablet', tabs: 'tablet', yab: 'tablet', cap: 'capsule', caps: 'capsule', amp: 'ampoule', vail: 'vial', cartidge: 'cartridge', spary: 'spray', film: 'film', films: 'film', pen: 'pen', vial: 'vial', tube: 'tube', syrup: 'syrup', susp: 'suspension', oint: 'ointment' };
+  return aliases[raw] || raw;
+}
+
+function pluralUnit(unit, count) {
+  const plural = { tablet: 'tablets', capsule: 'capsules', ampoule: 'ampoules', vial: 'vials', film: 'films', pen: 'pens', tube: 'tubes', syrup: 'syrups', suspension: 'suspensions', ointment: 'ointments', cartridge: 'cartridges', spray: 'sprays' };
+  return count === 1 ? unit : (plural[unit] || unit);
+}
+
+function parsePackage(value) {
+  const raw = String(value || '').trim();
+  const match = raw.match(/^(\d+)\s*([a-z]+)\b/i);
+  if (!match) return { label: titleCaseDrugName(raw), count: null, unit: normalizeUnit(raw), concentration: null, form: null };
+  const count = Number(match[1]);
+  const unit = normalizeUnit(match[2]);
+  return { label: `${count} ${pluralUnit(unit, count)}`, count, unit, concentration: null, form: unit };
+}
+
+function normalizeDrug(drug) {
+  const display_name = titleCaseDrugName(drug.drug_name);
+  const key = display_name.toLowerCase();
+  const aliases = Object.entries(ARABIC_SEARCH_NAMES).filter(([needle]) => key.includes(needle)).map(([, alias]) => alias).join(' ');
+  return { ...drug, display_name, drug_name: display_name, trade_name: drug.trade_name ? titleCaseDrugName(drug.trade_name) : null, search_aliases: aliases };
+}
+
 // ─── LOAD DATA ─────────────────────────────────────────────
 function loadData() {
   try {
     const data = window.DRUGS_DATA;
     if (!data) throw new Error('DRUGS_DATA not found');
 
-    // Process free drugs
-    const freeDrugs = (data.free_drugs || []).map(d => ({
+    // Normalize the three lists once at startup. Search aliases stay hidden from cards.
+    const freeDrugs = (data.free_drugs || []).map(d => normalizeDrug({
       ...d,
       sheet_label: 'مجاني',
     }));
 
-    // Process commercial drugs
-    const commDrugs = (data.commercial_drugs || []).map((d, i) => ({
-      serial:        1000 + i,
-      drug_name:     d.drug_name,
+    // Commercial rows contain a trade/brand name and a package description only.
+    const commDrugs = (data.commercial_drugs || []).map(d => {
+      const pack = parsePackage(d.unit);
+      return normalizeDrug({
+        drug_name: d.drug_name,
+        trade_name: d.drug_name,
+        pack_label: pack.label,
+        concentration: pack.concentration,
+        drug_form: null,
+        package_count: pack.count,
+        package_unit: pack.unit,
+        authority_raw: null,
+        authority: null,
+        committee: null,
+        group_num: null,
+        group_name: 'أدوية تجارية',
+        subgroup: null,
+        sheet: 'commercial',
+        sheet_label: 'تجاري',
+      });
+    });
+
+    // Special drugs: keep the trade name and show its package/form information.
+    const specDrugs = (data.special_drugs || []).map(d => normalizeDrug({
+      drug_name: d.drug_name,
+      trade_name: d.trade_name || null,
       concentration: null,
-      drug_form:     d.unit,
+      drug_form: d.drug_form || null,
       authority_raw: null,
-      authority:     null,
-      committee:     null,
-      group_num:     null,
-      group_name:    'أدوية تجارية',
-      subgroup:      null,
-      sheet:         'commercial',
-      sheet_label:   'تجاري',
+      authority: null,
+      committee: null,
+      group_num: null,
+      group_name: 'أدوية خاصة',
+      subgroup: null,
+      sheet: 'special',
+      sheet_label: 'خاص',
     }));
 
-    // Process special drugs (ورقة1)
-    const specDrugs = (data.special_drugs || []).map((d, i) => ({
-      serial:        2000 + i,
-      drug_name:     d.drug_name,
-      concentration: null,
-      drug_form:     d.drug_form || null,
-      trade_name:    d.trade_name || null,
-      authority_raw: null,
-      authority:     null,
-      committee:     null,
-      group_num:     null,
-      group_name:    'أدوية خاصة',
-      subgroup:      null,
-      sheet:         'special',
-      sheet_label:   'خاص',
-    }));
-
-    state.drugs    = [...freeDrugs, ...commDrugs, ...specDrugs];
+    state.drugs = [...freeDrugs, ...commDrugs, ...specDrugs]
+      .sort((a, b) => a.display_name.localeCompare(b.display_name, 'en', { sensitivity: 'base' }));
     state.filtered = state.drugs;
 
     populateGroups(freeDrugs);
@@ -312,13 +376,14 @@ function applyFilters() {
       const haystack = [
         d.drug_name, d.concentration, d.drug_form,
         d.authority_raw, d.group_name, d.subgroup,
-        d.trade_name, d.committee,
+        d.trade_name, d.committee, d.search_aliases, d.pack_label,
       ].filter(Boolean).join(' ').toLowerCase();
       return q.split(/\s+/).every(w => haystack.includes(w));
     }
     return true;
   });
 
+  state.filtered.sort((a, b) => a.display_name.localeCompare(b.display_name, 'en', { sensitivity: 'base' }));
   state.renderOffset = 0;
   renderResults();
 }
@@ -326,6 +391,7 @@ function applyFilters() {
 // ─── RENDER ────────────────────────────────────────────────
 function renderResults() {
   resultsGrid.innerHTML = '';
+  if (state.loadObserver) state.loadObserver.disconnect();
 
   if (state.filtered.length === 0) {
     noResults.classList.remove('hidden');
@@ -334,62 +400,37 @@ function renderResults() {
   }
 
   noResults.classList.add('hidden');
+  state.renderOffset = 0;
+  appendNextResults();
 
-  const slice = state.filtered.slice(0, state.PAGE_SIZE);
-  const total = state.filtered.length;
-
-  resultsMeta.innerHTML = `عرض <strong>${Math.min(state.PAGE_SIZE, total).toLocaleString('ar-EG')}</strong> من أصل <strong>${total.toLocaleString('ar-EG')}</strong> نتيجة`;
-
-  const frag = document.createDocumentFragment();
-  slice.forEach((drug, idx) => frag.appendChild(createCard(drug, idx)));
-  resultsGrid.appendChild(frag);
-
-  if (total > state.PAGE_SIZE) {
-    resultsGrid.appendChild(makeLoadMoreBtn(total - state.PAGE_SIZE));
-  }
+  state.loadObserver = new IntersectionObserver(entries => {
+    if (entries[0].isIntersecting && !state.isAppending) appendNextResults();
+  }, { rootMargin: '700px 0px' });
+  const sentinel = document.createElement('div');
+  sentinel.className = 'results-sentinel';
+  sentinel.setAttribute('aria-hidden', 'true');
+  resultsGrid.appendChild(sentinel);
+  state.loadObserver.observe(sentinel);
 }
 
-function loadMore() {
-  state.renderOffset += state.PAGE_SIZE;
-  const newSlice = state.filtered.slice(state.renderOffset, state.renderOffset + state.PAGE_SIZE);
-
-  const oldBtn = resultsGrid.querySelector('.load-more-btn');
-  if (oldBtn) oldBtn.remove();
-
+function appendNextResults() {
+  state.isAppending = true;
+  resultsGrid.querySelectorAll('.results-sentinel').forEach(el => el.remove());
+  const next = state.filtered.slice(state.renderOffset, state.renderOffset + state.PAGE_SIZE);
   const frag = document.createDocumentFragment();
-  newSlice.forEach((drug, idx) => frag.appendChild(createCard(drug, idx)));
+  next.forEach((drug, idx) => frag.appendChild(createCard(drug, state.renderOffset + idx)));
   resultsGrid.appendChild(frag);
+  state.renderOffset += next.length;
+  resultsMeta.innerHTML = `عرض <strong>${state.renderOffset.toLocaleString('ar-EG')}</strong> من أصل <strong>${state.filtered.length.toLocaleString('ar-EG')}</strong> نتيجة`;
 
-  const loaded = state.renderOffset + newSlice.length;
-  resultsMeta.innerHTML = `عرض <strong>${loaded.toLocaleString('ar-EG')}</strong> من أصل <strong>${state.filtered.length.toLocaleString('ar-EG')}</strong> نتيجة`;
-
-  if (loaded < state.filtered.length) {
-    resultsGrid.appendChild(makeLoadMoreBtn(state.filtered.length - loaded));
+  if (state.renderOffset < state.filtered.length) {
+    const nextSentinel = document.createElement('div');
+    nextSentinel.className = 'results-sentinel';
+    nextSentinel.setAttribute('aria-hidden', 'true');
+    resultsGrid.appendChild(nextSentinel);
+    if (state.loadObserver) state.loadObserver.observe(nextSentinel);
   }
-}
-
-function makeLoadMoreBtn(remaining) {
-  const btn = document.createElement('button');
-  btn.className = 'load-more-btn';
-  btn.textContent = `عرض المزيد (${remaining.toLocaleString('ar-EG')} نتيجة أخرى)`;
-  btn.style.cssText = `
-    grid-column: 1/-1;
-    background: rgba(255,255,255,0.05);
-    border: 1px solid rgba(255,255,255,0.1);
-    color: #94a3b8;
-    font-family: inherit;
-    font-size: 0.9rem;
-    font-weight: 700;
-    padding: 0.85rem 2rem;
-    border-radius: 12px;
-    cursor: pointer;
-    transition: all 0.2s ease;
-    margin-top: 0.5rem;
-  `;
-  btn.addEventListener('mouseenter', () => { btn.style.borderColor = '#3b82f6'; btn.style.color = '#60a5fa'; });
-  btn.addEventListener('mouseleave', () => { btn.style.borderColor = 'rgba(255,255,255,0.1)'; btn.style.color = '#94a3b8'; });
-  btn.addEventListener('click', () => loadMore());
-  return btn;
+  state.isAppending = false;
 }
 
 // ─── SVG ICONS ────────────────────────────────────────────
@@ -420,14 +461,13 @@ function createCard(drug, idx) {
     if (ai) badges.push(`<span class="badge ${ai.badge}">${ai.label}</span>`);
   }
 
-  const serialStr = drug.serial ? `<span class="card-serial">#${drug.serial}</span>` : '';
   const highlightedName = highlightQuery(drug.drug_name || '-', state.searchQuery);
 
   const chips = [];
   if (drug.concentration) chips.push(`<span class="card-chip chip-conc" dir="ltr">${ICONS.conc}<span>${highlightQuery(drug.concentration, state.searchQuery)}</span></span>`);
   if (drug.drug_form)     chips.push(`<span class="card-chip chip-form">${ICONS.form}<span>${highlightQuery(drug.drug_form, state.searchQuery)}</span></span>`);
-  if (drug.trade_name)    chips.push(`<span class="card-chip chip-trade">${ICONS.trade}<span>${escHtml(drug.trade_name)}</span></span>`);
-  if (drug.unit)          chips.push(`<span class="card-chip chip-unit">${ICONS.unit}<span>${escHtml(drug.unit)}</span></span>`);
+  if (drug.trade_name && drug.trade_name !== drug.drug_name) chips.push(`<span class="card-chip chip-trade">${ICONS.trade}<span>${escHtml(drug.trade_name)}</span></span>`);
+  if (drug.pack_label)    chips.push(`<span class="card-chip chip-unit">${ICONS.unit}<span>${escHtml(drug.pack_label)}</span></span>`);
   const chipsHtml = chips.length ? `<div class="card-chips">${chips.join('')}</div>` : '';
 
   let subgroupHtml = '';
@@ -446,7 +486,6 @@ function createCard(drug, idx) {
     '<div class="card-body">' +
       '<div class="card-header">' +
         '<div class="card-badges">' + badges.join('') + '</div>' +
-        serialStr +
       '</div>' +
       '<div class="card-name" dir="ltr">' + highlightedName + '</div>' +
       chipsHtml +
@@ -506,8 +545,7 @@ function openModal(drug) {
   if (drug.drug_form)      fields.push(['الشكل الدوائي',         drug.drug_form,      false]);
   if (drug.authority_raw)  fields.push(['السلطة الوصفية',        drug.authority_raw,  false]);
   if (drug.trade_name)     fields.push(['الاسم التجاري',          drug.trade_name,     true]);
-  if (drug.unit)           fields.push(['الوحدة',                 drug.unit,           false]);
-  if (drug.serial)         fields.push(['رقم التسلسل',            `#${drug.serial}`,  false]);
+  if (drug.pack_label)     fields.push(['العبوة',                 drug.pack_label,      false]);
 
   const fieldsHtml = fields.map(([label, value, hl]) => `
     <div class="modal-field">
@@ -543,7 +581,7 @@ function openModal(drug) {
   `;
 
   modalBody.innerHTML = `
-    <div class="modal-drug-name">${escHtml(drug.drug_name || '—')}</div>
+    <div class="modal-drug-name">${escHtml(drug.trade_name || drug.drug_name || '—')}</div>
     <div class="modal-badges">${badges.join('')}</div>
     ${statusHtml}
     ${fields.length ? `<div class="modal-grid">${fieldsHtml}</div>` : ''}
@@ -588,12 +626,13 @@ filterSheetEl.addEventListener('click', e => {
   pill.classList.add('active');
   state.filterSheet = pill.dataset.value;
 
-  // Dim authority filter for non-free sheets
-  const authGrp = $('authorityFilterGroup');
-  const dim = (state.filterSheet === 'commercial' || state.filterSheet === 'special');
-  authGrp.style.opacity = dim ? '0.4' : '1';
-  authGrp.style.pointerEvents = dim ? 'none' : 'auto';
-
+  // Authority data exists only in the free list, so hide this filter completely elsewhere.
+  const hideAuthority = state.filterSheet === 'commercial' || state.filterSheet === 'special';
+  authorityFilterGroup.classList.toggle('hidden', hideAuthority);
+  if (hideAuthority) {
+    state.filterAuthority = 'all';
+    filterAuthEl.querySelectorAll('.pill').forEach(p => p.classList.toggle('active', p.dataset.value === 'all'));
+  }
   applyFilters();
 });
 
