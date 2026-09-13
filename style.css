@@ -69,6 +69,7 @@ button, input, select, textarea {
   z-index: 0;
   pointer-events: none;
   overflow: hidden;
+  display: none;
 }
 
 .bg-blob {

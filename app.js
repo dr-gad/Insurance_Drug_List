@@ -412,14 +412,17 @@ function renderNextChunk(token, replace = false) {
   if (token !== state.renderToken) return;
   const oldLoadMore = resultsGrid.querySelector('.load-more-btn');
   if (oldLoadMore) oldLoadMore.remove();
+  const oldCards = replace ? [...resultsGrid.children] : [];
   const start = state.renderOffset;
   const end = Math.min(start + state.PAGE_SIZE, state.filtered.length);
   const frag = document.createDocumentFragment();
   for (let idx = start; idx < end; idx += 1) {
     frag.appendChild(createCard(state.filtered[idx], idx));
   }
-  if (replace) resultsGrid.innerHTML = '';
   resultsGrid.appendChild(frag);
+  if (replace) {
+    oldCards.forEach(card => card.remove());
+  }
   state.renderOffset = end;
   resultsMeta.innerHTML = `عرض <strong>${end.toLocaleString('ar-EG')}</strong> من أصل <strong>${state.filtered.length.toLocaleString('ar-EG')}</strong> نتيجة`;
 
