@@ -15,8 +15,6 @@ const state = {
   filterGroup: 'all',
   renderOffset: 0,
   PAGE_SIZE: 60,
-  loadObserver: null,
-  isAppending: false,
 };
 
 // ─── DOM REFS ──────────────────────────────────────────────
@@ -391,7 +389,6 @@ function applyFilters() {
 // ─── RENDER ────────────────────────────────────────────────
 function renderResults() {
   resultsGrid.innerHTML = '';
-  if (state.loadObserver) state.loadObserver.disconnect();
 
   if (state.filtered.length === 0) {
     noResults.classList.remove('hidden');
@@ -401,36 +398,13 @@ function renderResults() {
 
   noResults.classList.add('hidden');
   state.renderOffset = 0;
-  appendNextResults();
 
-  state.loadObserver = new IntersectionObserver(entries => {
-    if (entries[0].isIntersecting && !state.isAppending) appendNextResults();
-  }, { rootMargin: '700px 0px' });
-  const sentinel = document.createElement('div');
-  sentinel.className = 'results-sentinel';
-  sentinel.setAttribute('aria-hidden', 'true');
-  resultsGrid.appendChild(sentinel);
-  state.loadObserver.observe(sentinel);
-}
-
-function appendNextResults() {
-  state.isAppending = true;
-  resultsGrid.querySelectorAll('.results-sentinel').forEach(el => el.remove());
-  const next = state.filtered.slice(state.renderOffset, state.renderOffset + state.PAGE_SIZE);
+  // Build the current result set in one batch so scrolling never waits for new cards.
   const frag = document.createDocumentFragment();
-  next.forEach((drug, idx) => frag.appendChild(createCard(drug, state.renderOffset + idx)));
+  state.filtered.forEach((drug, idx) => frag.appendChild(createCard(drug, idx)));
   resultsGrid.appendChild(frag);
-  state.renderOffset += next.length;
+  state.renderOffset = state.filtered.length;
   resultsMeta.innerHTML = `عرض <strong>${state.renderOffset.toLocaleString('ar-EG')}</strong> من أصل <strong>${state.filtered.length.toLocaleString('ar-EG')}</strong> نتيجة`;
-
-  if (state.renderOffset < state.filtered.length) {
-    const nextSentinel = document.createElement('div');
-    nextSentinel.className = 'results-sentinel';
-    nextSentinel.setAttribute('aria-hidden', 'true');
-    resultsGrid.appendChild(nextSentinel);
-    if (state.loadObserver) state.loadObserver.observe(nextSentinel);
-  }
-  state.isAppending = false;
 }
 
 // ─── SVG ICONS ────────────────────────────────────────────

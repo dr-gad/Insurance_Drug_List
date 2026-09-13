@@ -205,9 +205,14 @@ button, input, select, textarea {
   padding: 1.4rem 0 0.8rem;
 }
 
+/* The search bar is a page-level sticky control; filters remain in normal flow. */
+.search-section {
+  display: contents;
+}
+
 .search-box-wrap {
   max-width: 860px;
-  margin: 0 auto;
+  margin: 0 auto 0.8rem;
 }
 
 .search-input-wrap {
@@ -221,6 +226,23 @@ button, input, select, textarea {
   transition: border-color var(--transition-md), box-shadow var(--transition-md);
   box-shadow: 0 4px 28px rgba(0,0,0,0.25);
   min-height: 48px;
+}
+
+/* Keep search one quick tap away while the long result list scrolls. */
+.search-input-wrap {
+  position: sticky;
+  top: 70px;
+  z-index: 90;
+  isolation: isolate;
+}
+.search-input-wrap::before {
+  content: '';
+  position: absolute;
+  inset: -0.35rem -0.2rem;
+  z-index: -1;
+  border-radius: 20px;
+  background: rgba(2, 6, 23, 0.88);
+  box-shadow: 0 8px 24px rgba(2, 6, 23, 0.35);
 }
 
 .search-input-wrap:focus-within {
@@ -498,10 +520,13 @@ button, input, select, textarea {
   -webkit-backdrop-filter: blur(16px);
   position: relative;
   overflow: hidden;
-  animation: cardIn 0.28s cubic-bezier(.22,.68,0,1.2) both;
+  animation: none;
   display: flex;
   flex-direction: column;
   box-shadow: 0 10px 30px -8px rgba(0, 0, 0, 0.45), inset 0 1px 0 rgba(255, 255, 255, 0.08);
+  content-visibility: auto;
+  contain: layout paint style;
+  contain-intrinsic-size: 220px;
 }
 
 /* Subtle ambient radial glow at top */
@@ -1277,6 +1302,18 @@ mark {
    RESPONSIVE & MOBILE OPTIMIZATIONS
 ========================================= */
 @media (max-width: 640px) {
+  .search-input-wrap {
+    top: 54px;
+  }
+  .drug-card {
+    backdrop-filter: none;
+    -webkit-backdrop-filter: none;
+    animation: none;
+  }
+  .bg-blob {
+    animation: none;
+    filter: blur(48px);
+  }
   .site-header {
     padding: 0.45rem 0;
   }
@@ -1355,6 +1392,9 @@ mark {
   /* Search section on mobile */
   .search-section {
     padding: 0.75rem 0 0.45rem;
+  }
+  .search-box-wrap {
+    margin: 0 auto 0.45rem;
   }
   .search-input-wrap {
     border-radius: 12px;
@@ -1510,13 +1550,4 @@ mark {
 
 @media (max-width: 768px) {
   .main-content { padding: 0 0.85rem 3rem; }
-}
-
-
-/* Automatically loaded results: keep the next batch ready before the user reaches the end. */
-.results-sentinel {
-  grid-column: 1 / -1;
-  height: 1px;
-  width: 100%;
-  pointer-events: none;
 }
