@@ -606,7 +606,7 @@ function openModal(drug) {
 function closeModal() {
   modalOverlay.classList.add('hidden');
   document.body.style.overflow = '';
-  modalClose.blur();
+  document.activeElement?.blur();
 }
 
 // ─── EVENT LISTENERS ──────────────────────────────────────

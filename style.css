@@ -855,7 +855,7 @@ mark {
 }
 
 .card-group-footer-text {
-  font-size: 0.94rem;
+  font-size: 1.04rem;
   font-weight: 600;
   color: #94a3b8;
   white-space: nowrap;
@@ -1035,7 +1035,7 @@ mark {
   border: 1px solid rgba(59,130,246,0.15);
   border-radius: var(--radius);
   padding: 0.85rem 1.15rem;
-  font-size: 1.02rem;
+  font-size: 1.12rem;
   color: var(--blue-400);
   font-weight: 700;
   margin-bottom: 0.6rem;
@@ -1053,7 +1053,7 @@ mark {
   border: 1px solid rgba(59,130,246,0.1);
   border-radius: var(--radius);
   padding: 0.7rem 1.15rem;
-  font-size: 0.94rem;
+  font-size: 1.02rem;
   color: #60a5fa;
   font-weight: 600;
   margin-bottom: 0.6rem;
@@ -1520,7 +1520,7 @@ mark {
     border-radius: 0 0 20px 20px;
   }
   .card-group-footer-text {
-    font-size: 0.88rem;
+    font-size: 0.96rem;
   }
 
   /* Modal on mobile - bottom sheet docking */
