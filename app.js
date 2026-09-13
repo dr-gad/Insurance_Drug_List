@@ -489,7 +489,7 @@ function createCard(drug, idx) {
   }
 
   const groupFooter = drug.group_name
-    ? `<div class="card-group-footer">${ICONS.group}<span class="card-group-footer-text">${escHtml(drug.group_name)}</span></div>`
+    ? `<div class="card-group-footer"><span class="group-label-pill">${ICONS.group}<span>Categ</span></span><span class="card-group-footer-text">${escHtml(drug.group_name)}</span></div>`
     : '';
 
   card.innerHTML =
@@ -569,7 +569,8 @@ function openModal(drug) {
   if (drug.group_name) {
     groupHtml = `
       <div class="modal-group-strip">
-        <span>المجموعة: </span>${escHtml(drug.group_name)}
+        <span class="modal-group-label">${ICONS.group}<span>Categ</span></span>
+        <span class="modal-group-name">${escHtml(drug.group_name)}</span>
         ${drug.group_num ? `<span style="color:#4b5563"> (Group ${drug.group_num})</span>` : ''}
       </div>`;
   }
