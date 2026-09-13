@@ -480,11 +480,19 @@ button, input, select, textarea {
 .results-section { margin-top: 1.5rem; }
 
 .results-meta {
+  display: inline-flex;
+  align-items: center;
+  width: fit-content;
   font-size: 0.95rem;
-  color: var(--text-muted);
-  margin-bottom: 1.1rem;
+  color: #dbeafe;
+  margin: 0 0 1.1rem auto;
+  padding: 0.42rem 0.9rem;
+  border: 1px solid rgba(96, 165, 250, 0.35);
+  border-radius: 999px;
+  background: rgba(37, 99, 235, 0.16);
+  box-shadow: 0 4px 14px rgba(37, 99, 235, 0.12);
   font-weight: 600;
-  min-height: 1.4em;
+  min-height: 0;
 }
 
 .results-meta strong { color: var(--blue-400); font-size: 1.1rem; font-weight: 800; }
