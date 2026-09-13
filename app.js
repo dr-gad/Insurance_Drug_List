@@ -396,9 +396,8 @@ function renderResults() {
     clearTimeout(state.renderTimer);
     state.renderTimer = null;
   }
-  resultsGrid.innerHTML = '';
-
   if (state.filtered.length === 0) {
+    resultsGrid.innerHTML = '';
     noResults.classList.remove('hidden');
     resultsMeta.innerHTML = '';
     return;
@@ -406,10 +405,10 @@ function renderResults() {
 
   noResults.classList.add('hidden');
   state.renderOffset = 0;
-  renderNextChunk(token);
+  renderNextChunk(token, true);
 }
 
-function renderNextChunk(token) {
+function renderNextChunk(token, replace = false) {
   if (token !== state.renderToken) return;
   const oldLoadMore = resultsGrid.querySelector('.load-more-btn');
   if (oldLoadMore) oldLoadMore.remove();
@@ -419,6 +418,7 @@ function renderNextChunk(token) {
   for (let idx = start; idx < end; idx += 1) {
     frag.appendChild(createCard(state.filtered[idx], idx));
   }
+  if (replace) resultsGrid.innerHTML = '';
   resultsGrid.appendChild(frag);
   state.renderOffset = end;
   resultsMeta.innerHTML = `عرض <strong>${end.toLocaleString('ar-EG')}</strong> من أصل <strong>${state.filtered.length.toLocaleString('ar-EG')}</strong> نتيجة`;
@@ -571,7 +571,6 @@ function openModal(drug) {
       <div class="modal-group-strip">
         <span class="modal-group-label">${ICONS.group}<span>Categ</span></span>
         <span class="modal-group-name">${escHtml(drug.group_name)}</span>
-        ${drug.group_num ? `<span style="color:#4b5563"> (Group ${drug.group_num})</span>` : ''}
       </div>`;
   }
   if (drug.subgroup) {
