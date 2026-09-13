@@ -136,7 +136,7 @@ function parsePackage(value) {
   if (!match) return { label: titleCaseDrugName(raw), count: null, unit: normalizeUnit(raw), concentration: null, form: null };
   const count = Number(match[1]);
   const unit = normalizeUnit(match[2]);
-  return { label: `${count} ${pluralUnit(unit, count)}`, count, unit, concentration: null, form: unit };
+  return { label: `${count}${pluralUnit(unit, count)}`, count, unit, concentration: null, form: unit };
 }
 
 function normalizeDrug(drug) {
