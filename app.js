@@ -424,10 +424,10 @@ function createCard(drug, idx) {
   const highlightedName = highlightQuery(drug.drug_name || '-', state.searchQuery);
 
   const chips = [];
-  if (drug.concentration) chips.push(`<span class="card-chip chip-conc">${ICONS.conc}${highlightQuery(drug.concentration, state.searchQuery)}</span>`);
-  if (drug.drug_form)     chips.push(`<span class="card-chip chip-form">${ICONS.form}${highlightQuery(drug.drug_form, state.searchQuery)}</span>`);
-  if (drug.trade_name)    chips.push(`<span class="card-chip chip-trade">${ICONS.trade}${escHtml(drug.trade_name)}</span>`);
-  if (drug.unit)          chips.push(`<span class="card-chip chip-unit">${ICONS.unit}${escHtml(drug.unit)}</span>`);
+  if (drug.concentration) chips.push(`<span class="card-chip chip-conc" dir="ltr">${ICONS.conc}<span>${highlightQuery(drug.concentration, state.searchQuery)}</span></span>`);
+  if (drug.drug_form)     chips.push(`<span class="card-chip chip-form">${ICONS.form}<span>${highlightQuery(drug.drug_form, state.searchQuery)}</span></span>`);
+  if (drug.trade_name)    chips.push(`<span class="card-chip chip-trade">${ICONS.trade}<span>${escHtml(drug.trade_name)}</span></span>`);
+  if (drug.unit)          chips.push(`<span class="card-chip chip-unit">${ICONS.unit}<span>${escHtml(drug.unit)}</span></span>`);
   const chipsHtml = chips.length ? `<div class="card-chips">${chips.join('')}</div>` : '';
 
   let subgroupHtml = '';
@@ -448,7 +448,7 @@ function createCard(drug, idx) {
         '<div class="card-badges">' + badges.join('') + '</div>' +
         serialStr +
       '</div>' +
-      '<div class="card-name">' + highlightedName + '</div>' +
+      '<div class="card-name" dir="ltr">' + highlightedName + '</div>' +
       chipsHtml +
       subgroupHtml +
     '</div>' +
