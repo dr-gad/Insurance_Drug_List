@@ -737,6 +737,23 @@ button, input, select, textarea {
   transition: filter 0.22s ease;
 }
 
+.card-name.card-trade-name {
+  font-size: 1.52rem;
+  margin-bottom: 0.28rem;
+}
+
+.card-scientific-name {
+  margin: -0.05rem 0 0.85rem;
+  color: #94a3b8;
+  font-family: var(--font-drug);
+  font-size: 0.94rem;
+  font-weight: 600;
+  line-height: 1.35;
+  direction: ltr;
+  text-align: left;
+  word-break: break-word;
+}
+
 .drug-card:hover .card-name {
   filter: drop-shadow(0 3px 14px rgba(56, 189, 248, 0.42));
 }
@@ -1556,6 +1573,14 @@ mark {
     font-weight: 800;
     line-height: 1.35;
     margin-bottom: 0.8rem;
+  }
+  .card-name.card-trade-name {
+    font-size: 1.38rem;
+    margin-bottom: 0.22rem;
+  }
+  .card-scientific-name {
+    font-size: 0.86rem;
+    margin-bottom: 0.72rem;
   }
   .card-chip {
     font-size: 0.82rem;

@@ -461,12 +461,16 @@ function createCard(drug, idx) {
     if (ai) badges.push(`<span class="badge ${ai.badge}">${ai.label}</span>`);
   }
 
-  const highlightedName = highlightQuery(drug.drug_name || '-', state.searchQuery);
+  const hasSeparateTradeName = Boolean(drug.trade_name && drug.trade_name !== drug.drug_name);
+  const mainName = drug.trade_name || drug.drug_name || '-';
+  const highlightedMainName = highlightQuery(mainName, state.searchQuery);
+  const scientificNameHtml = hasSeparateTradeName
+    ? `<div class="card-scientific-name" dir="ltr">${highlightQuery(drug.drug_name, state.searchQuery)}</div>`
+    : '';
 
   const chips = [];
   if (drug.concentration) chips.push(`<span class="card-chip chip-conc" dir="ltr">${ICONS.conc}<span>${highlightQuery(drug.concentration, state.searchQuery)}</span></span>`);
   if (drug.drug_form)     chips.push(`<span class="card-chip chip-form">${ICONS.form}<span>${highlightQuery(drug.drug_form, state.searchQuery)}</span></span>`);
-  if (drug.trade_name && drug.trade_name !== drug.drug_name) chips.push(`<span class="card-chip chip-trade">${ICONS.trade}<span>${escHtml(drug.trade_name)}</span></span>`);
   if (drug.pack_label)    chips.push(`<span class="card-chip chip-unit">${ICONS.unit}<span>${escHtml(drug.pack_label)}</span></span>`);
   const chipsHtml = chips.length ? `<div class="card-chips">${chips.join('')}</div>` : '';
 
@@ -487,7 +491,8 @@ function createCard(drug, idx) {
       '<div class="card-header">' +
         '<div class="card-badges">' + badges.join('') + '</div>' +
       '</div>' +
-      '<div class="card-name" dir="ltr">' + highlightedName + '</div>' +
+      `<div class="card-name ${hasSeparateTradeName ? 'card-trade-name' : ''}" dir="ltr">${highlightedMainName}</div>` +
+      scientificNameHtml +
       chipsHtml +
       subgroupHtml +
     '</div>' +
