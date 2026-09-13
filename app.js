@@ -411,6 +411,8 @@ function renderResults() {
 
 function renderNextChunk(token) {
   if (token !== state.renderToken) return;
+  const oldLoadMore = resultsGrid.querySelector('.load-more-btn');
+  if (oldLoadMore) oldLoadMore.remove();
   const start = state.renderOffset;
   const end = Math.min(start + state.PAGE_SIZE, state.filtered.length);
   const frag = document.createDocumentFragment();
@@ -422,11 +424,23 @@ function renderNextChunk(token) {
   resultsMeta.innerHTML = `عرض <strong>${end.toLocaleString('ar-EG')}</strong> من أصل <strong>${state.filtered.length.toLocaleString('ar-EG')}</strong> نتيجة`;
 
   if (end < state.filtered.length) {
-    // Yield to taps, keyboard input, and scrolling between every small batch.
-    state.renderTimer = setTimeout(() => renderNextChunk(token), 0);
+    resultsGrid.appendChild(makeLoadMoreBtn(state.filtered.length - end, token));
+    state.renderTimer = null;
   } else {
     state.renderTimer = null;
   }
+}
+
+function makeLoadMoreBtn(remaining, token) {
+  const btn = document.createElement('button');
+  btn.type = 'button';
+  btn.className = 'load-more-btn';
+  btn.textContent = `تحميل المزيد (${remaining.toLocaleString('ar-EG')} نتيجة متبقية)`;
+  btn.addEventListener('click', () => {
+    if (token !== state.renderToken) return;
+    renderNextChunk(token);
+  });
+  return btn;
 }
 
 // ─── SVG ICONS ────────────────────────────────────────────
